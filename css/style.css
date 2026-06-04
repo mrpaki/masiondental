@@ -304,7 +304,6 @@ p { color: var(--c-ink-2); }
   box-shadow: 0 8px 24px rgba(26,25,23,0.12);
   z-index: 9999;
 }
-.nav__dropdown:hover .nav__dropdown-menu,
 .nav__dropdown.is-open .nav__dropdown-menu {
   display: block;
 }

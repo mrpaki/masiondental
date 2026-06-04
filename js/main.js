@@ -120,23 +120,27 @@
     });
   }
 
-  /* ── 7. Dropdown — click toggle ── */
-  document.querySelectorAll('.nav__dropdown > a').forEach(function (trigger) {
-    trigger.addEventListener('click', function (e) {
-      e.preventDefault();
-      var dropdown = trigger.closest('.nav__dropdown');
-      var isOpen = dropdown.classList.contains('is-open');
-      document.querySelectorAll('.nav__dropdown').forEach(function (d) {
-        d.classList.remove('is-open');
-      });
-      if (!isOpen) dropdown.classList.add('is-open');
+  /* ── 7. Dropdown — hover with delay so mouse can reach menu items ── */
+  var dropdowns = document.querySelectorAll('.nav__dropdown');
+  dropdowns.forEach(function (dropdown) {
+    var timer;
+
+    dropdown.addEventListener('mouseenter', function () {
+      clearTimeout(timer);
+      dropdowns.forEach(function (d) { d.classList.remove('is-open'); });
+      dropdown.classList.add('is-open');
+    });
+
+    dropdown.addEventListener('mouseleave', function () {
+      timer = setTimeout(function () {
+        dropdown.classList.remove('is-open');
+      }, 200);
     });
   });
+
   document.addEventListener('click', function (e) {
     if (!e.target.closest('.nav__dropdown')) {
-      document.querySelectorAll('.nav__dropdown').forEach(function (d) {
-        d.classList.remove('is-open');
-      });
+      dropdowns.forEach(function (d) { d.classList.remove('is-open'); });
     }
   });
 
