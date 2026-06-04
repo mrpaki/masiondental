@@ -723,18 +723,23 @@
     });
   }
 
-  document.addEventListener('DOMContentLoaded', function () {
+  function initI18n() {
     document.querySelectorAll('.lang-toggle-btn').forEach(function (btn) {
       btn.addEventListener('click', function (e) {
-        var target = e.target.closest('[data-lang-sr], [data-lang-en]');
-        if (!target) return;
-        var lang = target.hasAttribute('data-lang-sr') ? 'sr' : 'en';
-        applyLang(lang);
+        var sr = e.target.closest('[data-lang-sr]');
+        var en = e.target.closest('[data-lang-en]');
+        if (sr) applyLang('sr');
+        else if (en) applyLang('en');
       });
     });
-
     applyLang(currentLang);
-  });
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initI18n);
+  } else {
+    initI18n();
+  }
 
   window.mdI18n = { apply: applyLang };
 })();
