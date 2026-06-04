@@ -12,6 +12,13 @@
   <meta property="og:url" content="https://maisondental.rs/usluge/invisalign.html">
   <meta property="og:locale" content="sr_RS">
   <link rel="canonical" href="https://maisondental.rs/usluge/invisalign.html">
+  <style>
+    .lang-toggle-btn { display:flex; align-items:center; gap:4px; font-size:0.72rem; font-weight:500; letter-spacing:0.08em; cursor:pointer; padding:4px 8px; border-radius:20px; border:1.5px solid var(--c-border); background:none; color:var(--c-ink-2); transition:border-color .2s; }
+    .lang-toggle-btn:hover { border-color:var(--c-ink); }
+    .lang-toggle-btn span { cursor:pointer; padding:2px 4px; border-radius:4px; transition:color .2s; }
+    .lang-toggle-btn span:hover { color:var(--c-ink); }
+    .lang-sep { color:var(--c-border); }
+  </style>
   <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
@@ -21,21 +28,26 @@
     <div class="nav__inner">
       <a href="../index.html" class="nav__logo">Maison<span>Dental</span></a>
       <ul class="nav__links" role="list">
-        <li><a href="../index.html">Početna</a></li>
-        <li><a href="../o-nama.html">O nama</a></li>
+        <li><a href="../index.html" data-i18n="nav.home">Početna</a></li>
+        <li><a href="../o-nama.html" data-i18n="nav.about">O nama</a></li>
         <li class="nav__dropdown">
-          <a href="#" aria-haspopup="true">Usluge</a>
+          <a href="#" aria-haspopup="true" data-i18n="nav.services">Usluge</a>
           <ul class="nav__dropdown-menu" role="list">
             <li><a href="stomatologija.html">Minimalno invazivna stomatologija</a></li>
             <li><a href="invisalign.html">Invisalign</a></li>
             <li><a href="anti-ageing.html">Anti-ageing &amp; estetska medicina</a></li>
           </ul>
         </li>
-        <li><a href="../galerija.html">Galerija osmeha</a></li>
-        <li><a href="../cenovnik.html">Cenovnik</a></li>
-        <li><a href="../kontakt.html">Kontakt</a></li>
+        <li><a href="../galerija.html" data-i18n="nav.gallery">Galerija osmeha</a></li>
+        <li><a href="../cenovnik.html" data-i18n="nav.prices">Cenovnik</a></li>
+        <li><a href="../kontakt.html" data-i18n="nav.contact">Kontakt</a></li>
       </ul>
-      <a href="../kontakt.html" class="btn btn--dark nav__cta">Zakažite konsultaciju</a>
+            <div style="display:flex;align-items:center;gap:0.75rem">
+        <button class="lang-toggle-btn" aria-label="Promeni jezik">
+          <span data-lang-sr>SR</span><span class="lang-sep">/</span><span data-lang-en>EN</span>
+        </button>
+        <a href="../kontakt.html" class="btn btn--dark nav__cta" data-i18n="nav.cta">Zakažite konsultaciju</a>
+      </div>
       <button class="nav__burger" aria-label="Otvori meni" aria-expanded="false" aria-controls="mobile-menu">
         <span></span><span></span><span></span>
       </button>
@@ -54,7 +66,7 @@
     <a href="../galerija.html">Galerija osmeha</a>
     <a href="../cenovnik.html">Cenovnik</a>
     <a href="../kontakt.html">Kontakt</a>
-    <a href="../kontakt.html" class="btn btn--dark">Zakažite konsultaciju</a>
+    <a href="../kontakt.html" class="btn btn--dark" data-i18n="nav.cta">Zakažite konsultaciju</a>
   </nav>
 
   <main>
@@ -68,9 +80,9 @@
           <span aria-hidden="true">›</span>
           <span>Invisalign</span>
         </nav>
-        <p class="eyebrow">Ortodoncija</p>
-        <h1>Invisalign</h1>
-        <p>Jedini originalni američki sistem providnih folija za ispravljanje zuba. Diskretan, komforan, predvidiv.</p>
+        <p class="eyebrow" data-i18n="inv.hero.eyebrow">Ortodoncija</p>
+        <h1 data-i18n="inv.hero.h1">Invisalign</h1>
+        <p data-i18n="inv.hero.p">Jedini originalni američki sistem providnih folija za ispravljanje zuba. Diskretan, komforan, predvidiv.</p>
       </div>
     </div>
 
@@ -79,7 +91,7 @@
       <div class="container">
         <div class="grid-2" style="gap:5rem;align-items:start">
           <article class="service-content reveal">
-            <h2>Šta je Invisalign?</h2>
+            <h2 data-i18n="inv.h2.1">Šta je Invisalign?</h2>
             <p>
               Invisalign je jedini originalni, američki sistem patentiranih folija (alajnera) za
               ispravljanje zuba. Ovim naprednim sistemom mogu se ispraviti čak i veoma kompleksne
@@ -104,7 +116,7 @@
               koja se oblikuje vakum aparatom te nema podjednako dobra svojstva.
             </p>
 
-            <h2>Koliko dugo traje terapija?</h2>
+            <h2 data-i18n="inv.h2.3">Koliko dugo traje terapija?</h2>
             <p>
               Dužina trajanja terapije zavisi od stepena nepravilnosti zuba. Svakom pacijentu se
               na početku tretmana određuje individualni plan terapije koji diktira broj folija.
@@ -192,9 +204,9 @@
     <!-- CTA -->
     <section class="cta-banner">
       <div class="container">
-        <p class="eyebrow" style="color:var(--c-accent)">Zakažite pregled</p>
-        <h2 class="reveal">Zakažite Invisalign konsultaciju</h2>
-        <p class="reveal">Saznajte da li ste kandidat za Invisalign i dobijte individualni plan terapije.</p>
+        <p class="eyebrow" style="color:var(--c-accent)" data-i18n="cta.eyebrow">Zakažite pregled</p>
+        <h2 class="reveal" data-i18n="cta.inv.h2">Zakažite Invisalign konsultaciju</h2>
+        <p class="reveal" data-i18n="cta.inv.p">Saznajte da li ste kandidat za Invisalign i dobijte individualni plan terapije.</p>
         <div class="cta-banner__actions reveal">
           <a href="https://wa.me/381637178337" class="btn btn--accent" target="_blank" rel="noopener">WhatsApp</a>
           <a href="tel:+381637178337" class="btn btn--outline-light">+381 63 71 78 337</a>
@@ -209,13 +221,13 @@
       <div class="footer__grid">
         <div>
           <div class="footer__logo">Maison<span>Dental</span></div>
-          <p class="footer__desc">Privatna stomatološka ordinacija u Beogradu. Minimalno invazivna stomatologija, Invisalign i anti-ageing procedura.</p>
+          <p class="footer__desc" data-i18n="footer.desc">Privatna stomatološka ordinacija u Beogradu. Minimalno invazivna stomatologija, Invisalign i anti-ageing procedura.</p>
           <div class="footer__social">
             <a href="https://www.instagram.com/smile_by_dr_ana/" class="footer__social-link" target="_blank" rel="noopener" aria-label="Instagram profil">IG</a>
           </div>
         </div>
         <div>
-          <div class="footer__heading">Navigacija</div>
+          <div class="footer__heading" data-i18n="footer.nav">Navigacija</div>
           <ul class="footer__links">
             <li><a href="../index.html">Početna</a></li>
             <li><a href="../o-nama.html">O nama</a></li>
@@ -224,7 +236,7 @@
           </ul>
         </div>
         <div>
-          <div class="footer__heading">Usluge</div>
+          <div class="footer__heading" data-i18n="footer.services">Usluge</div>
           <ul class="footer__links">
             <li><a href="stomatologija.html">Minimalno invazivna stomatologija</a></li>
             <li><a href="invisalign.html">Invisalign</a></li>
@@ -232,7 +244,7 @@
           </ul>
         </div>
         <div>
-          <div class="footer__heading">Kontakt</div>
+          <div class="footer__heading" data-i18n="footer.contact">Kontakt</div>
           <div class="footer__contact-item">
             <span class="footer__contact-icon" aria-hidden="true">◎</span>
             <span>Tikveška 22, Voždovac<br>Beograd, Srbija</span>
@@ -248,12 +260,13 @@
         </div>
       </div>
       <div class="footer__bottom">
-        <span>© 2026 MaisonDental &amp; Aesthetic. Sva prava zadržana.</span>
+        <span data-i18n="footer.rights">© 2026 MaisonDental &amp; Aesthetic. Sva prava zadržana.</span>
         <span>Tikveška 22, Voždovac, Beograd</span>
       </div>
     </div>
   </footer>
 
+  <script src="../js/i18n.js" defer></script>
   <script src="../js/main.js" defer></script>
 </body>
 </html>
