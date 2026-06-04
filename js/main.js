@@ -120,32 +120,22 @@
     });
   }
 
-  /* ── 7. Dropdown — close on outside click ── */
+  /* ── 7. Dropdown — click toggle ── */
   document.querySelectorAll('.nav__dropdown > a').forEach(function (trigger) {
     trigger.addEventListener('click', function (e) {
+      e.preventDefault();
       var dropdown = trigger.closest('.nav__dropdown');
-      var menu = dropdown.querySelector('.nav__dropdown-menu');
-      if (!menu) return;
-      var isVisible = menu.style.opacity === '1';
-      document.querySelectorAll('.nav__dropdown-menu').forEach(function (m) {
-        m.style.opacity = '';
-        m.style.pointerEvents = '';
-        m.style.transform = '';
+      var isOpen = dropdown.classList.contains('is-open');
+      document.querySelectorAll('.nav__dropdown').forEach(function (d) {
+        d.classList.remove('is-open');
       });
-      if (!isVisible) {
-        e.preventDefault();
-        menu.style.opacity = '1';
-        menu.style.pointerEvents = 'auto';
-        menu.style.transform = 'translateY(0)';
-      }
+      if (!isOpen) dropdown.classList.add('is-open');
     });
   });
   document.addEventListener('click', function (e) {
     if (!e.target.closest('.nav__dropdown')) {
-      document.querySelectorAll('.nav__dropdown-menu').forEach(function (m) {
-        m.style.opacity = '';
-        m.style.pointerEvents = '';
-        m.style.transform = '';
+      document.querySelectorAll('.nav__dropdown').forEach(function (d) {
+        d.classList.remove('is-open');
       });
     }
   });
