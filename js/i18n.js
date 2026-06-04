@@ -168,6 +168,7 @@
       'kontakt.form.poruka':    'Poruka *',
       'kontakt.form.note':      'Odgovaramo u roku od 24 sata radnim danom.',
       'kontakt.form.submit':    'Pošaljite poruku',
+      'kontakt.form.poruka.placeholder': 'Napišite vašu poruku ili pitanje…',
       'kontakt.success.h3':     'Hvala vam!',
       'kontakt.success.p':      'Vaša poruka je primljena. Javimo se uskoro.',
 
@@ -507,6 +508,7 @@
       'kontakt.form.poruka':    'Message *',
       'kontakt.form.note':      'We respond within 24 hours on business days.',
       'kontakt.form.submit':    'Send message',
+      'kontakt.form.poruka.placeholder': 'Write your message or question…',
       'kontakt.success.h3':     'Thank you!',
       'kontakt.success.p':      'Your message has been received. We will be in touch soon.',
 

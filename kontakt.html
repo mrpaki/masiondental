@@ -199,16 +199,16 @@
               <div class="form-group">
                 <label for="usluga" data-i18n="kontakt.form.usluga">Usluga koja vas zanima</label>
                 <select id="usluga" name="usluga">
-                  <option value="">— Izaberite uslugu —</option>
-                  <option value="stomatologija">Minimalno invazivna stomatologija</option>
-                  <option value="invisalign">Invisalign</option>
-                  <option value="anti-ageing">Anti-ageing &amp; estetska medicina</option>
-                  <option value="ostalo">Ostalo</option>
+                  <option value="" data-i18n="kontakt.form.opt0">— Izaberite uslugu —</option>
+                  <option value="stomatologija" data-i18n="kontakt.form.opt1">Minimalno invazivna stomatologija</option>
+                  <option value="invisalign" data-i18n="kontakt.form.opt2">Invisalign</option>
+                  <option value="anti-ageing" data-i18n="kontakt.form.opt3">Anti-ageing &amp; estetska medicina</option>
+                  <option value="ostalo" data-i18n="kontakt.form.opt4">Ostalo</option>
                 </select>
               </div>
               <div class="form-group">
                 <label for="poruka" data-i18n="kontakt.form.poruka">Poruka *</label>
-                <textarea id="poruka" name="poruka" required placeholder="Napišite vašu poruku ili pitanje…"></textarea>
+                <textarea id="poruka" name="poruka" required placeholder="Napišite vašu poruku ili pitanje…" data-i18n-placeholder="kontakt.form.poruka.placeholder"></textarea>
               </div>
               <p class="form-note" data-i18n="kontakt.form.note">Odgovaramo u roku od 24 sata radnim danom.</p>
               <button type="submit" class="btn btn--dark" style="width:100%;justify-content:center" data-i18n="kontakt.form.submit">
