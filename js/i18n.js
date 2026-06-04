@@ -243,6 +243,11 @@
       'anti.faq.q5':            'Koliko vremena je potrebno za oporavak?',
       'anti.faq.a5':            'Većina tretmana nema period oporavka — možete nastaviti sa normalnim aktivnostima odmah. Može doći do blagog crvenila ili manjih modrica koje prolaze za dan-dva.',
 
+      /* CENOVNIK */
+      'cenovnik.eyebrow':       'Transparentne cene',
+      'cenovnik.h1':            'Cenovnik 2026',
+      'cenovnik.p':             'Sve cene su u dinarima (RSD). Za kompleksne slučajeve cena se određuje nakon pregleda.',
+
       /* 404 */
       '404.h1':                 'Stranica nije pronađena',
       '404.p':                  'Stranica koju tražite ne postoji ili je premeštena.',
@@ -488,6 +493,11 @@
       'anti.faq.a4':            'Treatments are minimally invasive. Where needed we use anaesthetic creams that significantly reduce discomfort. Most patients describe the treatment as mild discomfort rather than pain.',
       'anti.faq.q5':            'How much recovery time is needed?',
       'anti.faq.a5':            'Most treatments have no recovery period — you can resume normal activities immediately. There may be mild redness or minor bruising that passes within a day or two.',
+
+      /* CENOVNIK */
+      'cenovnik.eyebrow':       'Transparent pricing',
+      'cenovnik.h1':            'Price List 2026',
+      'cenovnik.p':             'All prices are in Serbian dinars (RSD). For complex cases the price is determined after consultation.',
 
       /* 404 */
       '404.h1':                 'Page not found',
