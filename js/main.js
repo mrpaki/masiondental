@@ -120,7 +120,37 @@
     });
   }
 
-  /* ── 7. Smooth scroll ── */
+  /* ── 7. Dropdown — close on outside click ── */
+  document.querySelectorAll('.nav__dropdown > a').forEach(function (trigger) {
+    trigger.addEventListener('click', function (e) {
+      var dropdown = trigger.closest('.nav__dropdown');
+      var menu = dropdown.querySelector('.nav__dropdown-menu');
+      if (!menu) return;
+      var isVisible = menu.style.opacity === '1';
+      document.querySelectorAll('.nav__dropdown-menu').forEach(function (m) {
+        m.style.opacity = '';
+        m.style.pointerEvents = '';
+        m.style.transform = '';
+      });
+      if (!isVisible) {
+        e.preventDefault();
+        menu.style.opacity = '1';
+        menu.style.pointerEvents = 'auto';
+        menu.style.transform = 'translateY(0)';
+      }
+    });
+  });
+  document.addEventListener('click', function (e) {
+    if (!e.target.closest('.nav__dropdown')) {
+      document.querySelectorAll('.nav__dropdown-menu').forEach(function (m) {
+        m.style.opacity = '';
+        m.style.pointerEvents = '';
+        m.style.transform = '';
+      });
+    }
+  });
+
+  /* ── 8. Smooth scroll ── */
   document.querySelectorAll('a[href^="#"]').forEach(function (anchor) {
     anchor.addEventListener('click', function (e) {
       var target = document.querySelector(this.getAttribute('href'));

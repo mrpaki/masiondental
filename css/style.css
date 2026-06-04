@@ -290,17 +290,17 @@ p { color: var(--c-ink-2); }
 .nav__dropdown { position: relative; }
 .nav__dropdown-menu {
   position: absolute;
-  top: calc(100% + 0.5rem);
+  top: 100%;
   left: 0;
   background: var(--c-white);
   border: 1px solid var(--c-border);
   border-radius: 12px;
-  padding: 0.5rem;
+  padding: 0.75rem 0.5rem 0.5rem;
   min-width: 300px;
   box-shadow: 0 8px 24px rgba(26,25,23,0.12);
   opacity: 0;
   pointer-events: none;
-  transform: translateY(-6px);
+  transform: translateY(-4px);
   transition: all 0.2s ease;
 }
 .nav__dropdown:hover .nav__dropdown-menu {
