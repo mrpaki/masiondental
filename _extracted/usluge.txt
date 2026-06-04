@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="sr-RS">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="keyword"
+      content="folije za ispravljanje zuba beograd, invisalign beograd, invisalign folije, providne folije za ispravljanje zuba, clear aligners belgrade, stomatolog vracar,stomatolog lekino brdo,  deciji stomatolog lekino brdo, botoks beograd, botox lekino brdo, mezoterapija, zubar beograd, zubar, lekino brdo zubar"
+    />
+    <meta
+      name="description"
+      content="U ordinaciji Maison Dental & Aesthetic, posvećeni smo etičkoj stomatološkoj praksi, sa misijom da pacijentima pružimo dugoročno očuvanje zdravlja, funkcije i estetike zuba. "
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MaisonDental&Aesthetic</title>
+    <meta property="og:locale" content="sr_RS" />
+    <meta property="og:locale:alternate" content="en_GB" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Početna - MaisonDental&Aesthetic" />
+    <meta property="og:image" content="./images/Main_logo_black.svg" />
+    <meta name="author" content="Filip Velemir" />
+    <link
+      rel="apple-touch-icon"
+      href="./images/Main logo ivory@4x.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="shortcut icon"
+      href="./images/Main logo ivory@4x.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="icon"
+      href="./images/Main logo ivory@4x.png"
+      type="image/x-icon"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <link href="https://fonts.cdnfonts.com/css/lt-soul" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/pages.css" />
+    <link rel="stylesheet" href="../LT_soul/font.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <script
+      defer
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      defer
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body class="bg" onload="">
+    <div class="container-fluid p-0">
+      <!--NavBar-->
+      <div class="container-fluid nav">
+        <nav class="navbar fixed-top">
+          <div class="container-fluid">
+            <div class="container-fluid align-items-center">
+              <div class="row align-items-center">
+                <div class="col justify-content-start">
+                  <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar"
+                    aria-controls="offcanvasNavbar"
+                    aria-label="Toggle navigation"
+                  >
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                </div>
+                <div class="col-6 d-flex justify-content-center">
+                  <div class="continer-fluid logo navbar-brand">
+                    <img
+                      src="../images/Main logo black.svg"
+                      href="#"
+                      alt="MaisonDental&Aesthetic_logo"
+                    />
+                  </div>
+                </div>
+                <div class="col d-flex justify-content-end button-mobile">
+                  <button
+                    type="button"
+                    id="redirect-btn"
+                    class="btn btn-outline-dark open-button"
+                    data-i18n="form_button_text"
+                  >
+                    ZAKAŽITE KONSULTACIJU
+                  </button>
+                  <!--                   <dialog id="modal" class="px-5">
+                    <div class="container-fluid text-center p-2">
+                      <img
+                        src="../images/Main logo black.svg"
+                        alt=""
+                        style="width: 50%"
+                        alt="MaisonDental&Aesthetic_logo"
+                      />
+                    </div>
+                    <form
+                      name="consultation"
+                      method="POST"
+                      netlify
+                      action="/thanks"
+                    >
+                      <div class="mb-2">
+                        <div class="row mt-2">
+                          <input
+                            type="Ime"
+                            name="Ime"
+                            class="form-control"
+                            placeholder="Ime/Name"
+                            required
+                          />
+                        </div>
+                        <div class="row mt-2">
+                          <input
+                            type="Prezime"
+                            name="Prezime"
+                            class="form-control"
+                            placeholder="Prezime/Surname"
+                            required
+                          />
+                        </div>
+                        <div class="row mt-2">
+                          <input
+                            type="email"
+                            name="email"
+                            class="form-control"
+                            placeholder="E-mail"
+                            required
+                          />
+                        </div>
+                        <div class="row mt-2">
+                          <input
+                            type="text"
+                            name="telephone"
+                            class="form-control"
+                            placeholder="Broj telefona/Telephone number"
+                            required
+                          />
+                        </div>
+                        <div class="row mt-2">
+                          <textarea
+                            type="text"
+                            name="Poruka"
+                            class="form-control poruka"
+                            placeholder="Vasa poruka/Message"
+                            rows="5"
+                            cols="30"
+                            required
+                          ></textarea>
+                        </div>
+                      </div>
+                      <div class="row justify-content-between mt-3">
+                        <div class="col p-0">
+                          <button
+                            type="submit"
+                            class="btn btn-outline-dark btn-block"
+                            lng-tag="send_msg"
+                            data-i18n="text_form"
+                          >
+                            Zakažite termin
+                          </button>
+                        </div>
+                        <div class="col text-end p-0">
+                          <button
+                            type="button"
+                            class="btn btn-outline-dark close-button"
+                            data-i18n="close_btn_form"
+                          >
+                            Zatvorite
+                          </button>
+                        </div>
+                      </div>
+                      <input
+                        type="hidden"
+                        name="_next"
+                        value="https://maisondental.netlify.app/thanks.html"
+                      />
+                    </form>
+                  </dialog> -->
+                </div>
+              </div>
+            </div>
+            <!--Meni-->
+            <div
+              class="offcanvas offcanvas-start"
+              tabindex="-1"
+              id="offcanvasNavbar"
+              aria-labelledby="offcanvasNavbarLabel"
+            >
+              <div class="offcanvas-header justify-content-between">
+                <div>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="offcanvas"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div>
+                  <button
+                    type="button"
+                    class="btn btn-lg"
+                    onclick="changeLanguage('en')"
+                  >
+                    ENG
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-lg"
+                    onclick="changeLanguage('srb')"
+                  >
+                    SRB
+                  </button>
+                </div>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a aria-current='page' class='nav-link active nav-bar-link' data-i18n='home' href='/'>POČETNA</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class='nav-link nav-bar-link' data-i18n='about_us' href='/o_nama'>O NAMA</a
+                    >
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a aria-expanded='false' class='nav-link dropdown-toggle nav-bar-link' data-bs-toggle='dropdown' data-i18n='services' href='/minimal' role='button'>
+                      USLUGE
+                    </a>
+                    <ul class="dropdown-menu dropdown-bg">
+                      <li>
+                        <a class='dropdown-item' data-i18n='service_li1' href='/minimal'>Minimalno invazivna estetska stomatologija</a
+                        >
+                      </li>
+                      <li>
+                        <hr class="dropdown-divider" />
+                      </li>
+                      <li>
+                        <a class='dropdown-item' data-i18n='service_li2' href='/minimal'>Invisalign</a
+                        >
+                      </li>
+                      <li>
+                        <hr class="dropdown-divider" />
+                      </li>
+                      <li>
+                        <a class='dropdown-item' data-i18n='service_li3' href='/minimal'>Anti-ageing i regenerativna estetska medicina</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class='nav-link nav-bar-link' data-i18n='galerija-osmeha' href='/before'>GALERIJA OSMEHA</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link nav-bar-link"
+                      href="pdf/MaisonDental&Aesthetic_Cenovnik2026.pdf"
+                      download="MaisonDental&Aesthetic_Cenovnik2026"
+                      data-i18n="prices"
+                      >CENOVNIK</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class='nav-link nav-bar-link' data-i18n='contact' href='/kontakt'>KONTAKT</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <!--Content-->
+      <div class="container-fluid p-0">
+        <!--Minimalno invazivna stomatologija-->
+
+        <div class="container-fluid text-center centar">
+          <h2 class="mt-2 mb-2" data-i18n="first_service_name">
+            MINIMALNO INVAZIVNA ESTETSKA I RESTORATIVNA STOMATOLOGIJA
+          </h2>
+
+          <div class="accordion mt-4" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed fs-5"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="false"
+                  aria-controls="collapseOne"
+                  data-i18n="minimal_first_question"
+                >
+                  Koje su prednosti minimalno invazivne u odnosu na
+                  tradicionalnu stomatologiju za pacijenta?
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div
+                  class="accordion-body text-start fs-5"
+                  data-i18n="minimal_first_answer"
+                >
+                  Izbegavanjem nepotrebnog brušenja zdravog zubnog tkiva našim
+                  pacijentima omogućavamo dugoročno očuvanje prirodne denticije
+                  i minimalnu potrebu za budućim invazivnim tretmanima.<br />Edukacija
+                  o izbegavanju rizika i obučavanje pacijenata pravilnoj oralnoj
+                  higijeni igra ključnu ulogu u ovom konceptu kao i redovne
+                  stomatološke kontrole.<br />Posebnu pažnju posvećujemo nezi
+                  dečijih zuba i činimo da posete stomatologu budu pravo
+                  zadovoljstvo.<br />Primenjujemo minimalno invazivni pristup u
+                  svim stomatološkim intervencijama.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed fs-5"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                  data-i18n="minimal_second_question"
+                >
+                  Šta kada je brušenje neizbežno?
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div
+                  class="accordion-body text-start fs-5"
+                  data-i18n="minimal_second_answer"
+                >
+                  Za Vas biramo neinvazivne ili minimalno invazivne tehnike
+                  preparacije i direktne (zubne ispune-plombe) ili indirektne
+                  (inleje, onleje, vinire ili krunice) restauracije od
+                  netoksičnih estetskih materijala poslednje generacije.<br />U
+                  radu koristimo uveličavajuće dentalne lupe i digitalnu
+                  tehnologiju koja nam omogućava savršenu preciznost u radu .
+                  Kao rezultat dobijate funkcionalne i estetske nadoknade koje
+                  traju a ne štete vašim prirodnim zubima.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed fs-5"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                  data-i18n="minimal_third_question"
+                >
+                  Sanjate da i vi imate "Hollywood smile"?
+                </button>
+              </h2>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse fs-5"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body text-start">
+                  <p data-i18n="minimal_third_answer1">
+                    Decenijama unazad trend "Holivudskog osmeha" ne gubi na
+                    popularnosti ali obično podrazumeva preparaciju (takozvano
+                    'brušenje') zuba pacijenta kako bi stomatolog kasnije
+                    dobijene patrljke prekrio krunicama ili mostovima. Ova
+                    radikalna metoda često vremenom dovodi do ireverzibilnog
+                    oštećenja pulpe tj nerva zuba, potpornog aparata zuba i u
+                    nekim slučajevima gubitka jednog ili više zuba. "Holivudske"
+                    transformacije osmeha u poslednje vreme dobijaju negativnu
+                    konotaciju i u Velikoj Britaniji su nazvani "Turkey teeth"
+                    po Turskom dentalnom turizmu gde ovaj trend podrazumeva
+                    nebezbedan, ultra brz protokol destruktivnog brušenja gde se
+                    kao rezultat dobijaju neprirodno beli i očigledno veštački
+                    zubi. U našoj ordinaciji ne podržavamo ovaj trend, naročito
+                    ne kod mladih pacijenata.
+                  </p>
+                  <p data-i18n="minimal_third_answer2">
+                    Dobra vest je da možemo postići atraktivan i zdrav osmeh i
+                    bez oštećenja zuba! Imamo rešenje za svaku vrstu problema,
+                    bilo da je to nepravilnost položaja, oblika ili nedostatak
+                    jednog ili više zuba. Dr Ana se specijalizuje u minimalno
+                    invazivnim transformacijama osmeha koje pored ostalog
+                    uključuju treatman Invisalign folijama za korekciju položaja
+                    zuba i upotrebu kompozitnih materijala radi korekcije oblika
+                    i nijanse vaših prirodnih zuba.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--Invisalign-->
+
+        <div class="container-fluid text-center centar">
+          <h2 class="mt-2 mb-2" data-i18n="second_service_name">INVISALIGN</h2>
+
+          <div class="accordion mt-4" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed fs-5"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour"
+                  aria-expanded="false"
+                  aria-controls="collapseFour"
+                  data-i18n="invi_first_question"
+                >
+                  Šta je Invisalign ( srp. Invizalajn)?
+                </button>
+              </h2>
+              <div
+                id="collapseFour"
+                class="accordion-collapse collapse fs-5"
+                data-bs-parent="#accordionExample"
+              >
+                <div
+                  class="accordion-body text-start"
+                  data-i18n="invi_first_answer"
+                >
+                  Invisalign je jedini originalni , američki sistem patentiranih
+                  folija (alajnera) za ispravljanje zuba . Ovim naprednim
+                  sistemom mogu se ispraviti čak i veoma kompleksne
+                  nepravilnosti položaja zuba i zagrižaja. Ove udobne i gotovo
+                  neprimetne folije su posebno popularne među odraslom
+                  populacijom i zbog svog diskretnog izgleda, izbor poslovnih
+                  ljudi širom sveta. Brzina tretmana, komfor pri nošenju, i
+                  predvidivost samog plana terapije su važni faktori koje
+                  pacijenti smatraju presudnima pri odlučivanju za ovaj sistem .
+                  Uz sve navedeno, najvažniji faktor je iskustvo ordinirajućeg
+                  doktora i zato sa ponosom ističemo da je Dr Ana Miladinović
+                  sertifikovani provajder ovog prestižnog sistema of 2016 godine
+                  i da je od tada uspešno tretirala stotine zadovoljih
+                  pacijenata .
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed fs-5"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseFive"
+                  aria-expanded="false"
+                  aria-controls="collapseFive"
+                  data-i18n="invi_second_question"
+                >
+                  Kako se Invisalign poredi sa drugim brendovima providnih
+                  folija?
+                </button>
+              </h2>
+              <div
+                id="collapseFive"
+                class="accordion-collapse collapse fs-5"
+                data-bs-parent="#accordionExample"
+              >
+                <div
+                  class="accordion-body text-start"
+                  data-i18n="invi_second_answer"
+                >
+                  Invisalign alajneri se prave od patentiranog Smart track
+                  materijala procesom 3D štampanja. Ovaj sofisticirani materijal
+                  se karakteriše savršenom ravnotežom između čvrstoće i
+                  elastičnosti te tako omogućava udobnost tokom nošenja uz
+                  predvidljivo pomeranje zuba. Folije drugih brendova su
+                  napravljene od plastike različite debljine koja se oblikuje
+                  vakum aparatom te nema podjednako dobra svojstva.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed fs-5"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseSix"
+                  aria-expanded="false"
+                  aria-controls="collapseSix"
+                  data-i18n="invi_third_question"
+                >
+                  Koliko dugo traje terapija sa Invisalign folijama?
+                </button>
+              </h2>
+              <div
+                id="collapseSix"
+                class="accordion-collapse collapse"
+                data-bs-parent="#accordionExample"
+              >
+                <div
+                  class="accordion-body text-start fs-5"
+                  data-i18n="invi_third_answer"
+                >
+                  Dužina trajanja terapije zavisi od stepena nepravilnosti zuba.
+                  Svakom pacijentu se na početku tretmana određuje individualni
+                  plan terapije koji diktira broj folija. Svaka folija se nosi
+                  20-22 sata dnevno ,7-10 dana i onda se prelazi na narednu.
+                  Dužina terapije za najblaže nepravilnosti traje oko 3 meseca
+                  dok je uobičajeno trajanje tretmana između 6 i 9 meseci.
+                  Folije postepeno postavljaju zube u pravilan položaj i kao
+                  krajnji rezultat pacijent dobija sjajan estetski i
+                  funkcionalan rezultat koji je postignut bez ikakvog oštećenja
+                  zubne supstance. Ukoliko postoje nepravilnosti oblika jednog
+                  ili više zuba ,nakon završenog ispravljanja radi se
+                  korigovanje oblika kompozitnim materijalima.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--Anti-ageing i regenerativna estetska medicina-->
+
+        <div class="container-fluid text-center centar">
+          <h2 class="mt-2 mb-2" data-i18n="third_service_name">
+            ANTI-AGEING I REGENERATIVNA ESTETSKA MEDICINA
+          </h2>
+
+          <div class="accordion mt-4" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed fs-5"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseSeven"
+                  aria-expanded="false"
+                  aria-controls="collapseSeven"
+                  data-i18n="anti_first_question"
+                >
+                  Individualni pristup i konsultacija
+                </button>
+              </h2>
+              <div
+                id="collapseSeven"
+                class="accordion-collapse collapse fs-5"
+                data-bs-parent="#accordionExample"
+              >
+                <div
+                  class="accordion-body text-start"
+                  data-i18n="anti_first_answer"
+                >
+                  Savremene tehnike i najkvalitetniji proizvodi dostupni na
+                  tržištu ,koje koristimo u našoj ordinaciji ,omogućiće vam da
+                  izgledate kao najbolja verzija sebe,a ne kao neko drugi.
+                  Negujemo vašu individualnost i vraćamo samopouzdanje
+                  diskretnim korekcijama koje za cilj imaju svežiji i odmorniji
+                  izgled. Detaljna konsultacija i analiza lica je najznačajniji
+                  korak i zato joj posvećujemo posebnu pažnju i vreme. Možete
+                  očekivati odgovore na sva pitanja i nedoumice i detaljan
+                  dugoročni plan terapije jer iz iskustva znamo da najbolje
+                  prirodne transformacije zahtevaju vreme i posvećenost.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed fs-5"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseEight"
+                  aria-expanded="false"
+                  aria-controls="collapseEight"
+                  data-i18n="anti_second_question"
+                >
+                  Kolagen stimulatori i Egzosomi
+                </button>
+              </h2>
+              <div
+                id="collapseEight"
+                class="accordion-collapse collapse fs-5"
+                data-bs-parent="#accordionExample"
+              >
+                <div
+                  class="accordion-body text-start"
+                  data-i18n="anti_second_answer"
+                >
+                  Kolagen je glavni protein zastupljen u koži čija proizvodnja
+                  počinje da opada već u tridesetim godinama. Ključ usporavanja
+                  procesa starenja upravo jeste nadoknada i očuvanje ove
+                  dragocene supstance. Kolagen stimulatori su proizvodi nove
+                  generacije koji deluju na ćelijskom nivou stimulacijom
+                  fibroblasta-ćelija koje proizvode kolagen. Egzosomi su
+                  napravili revoluciju na svetskom tržištu estetske medicine u
+                  poslednjih par godina i doživeli značajan rast u popularnosti
+                  upravo zbog sposobnosti da stimulišu regeneraciju oštećenih
+                  ćelija. U ordinaciji Maison Dental & Aesthetic primenjujemo
+                  brojne minimalno invazivne procedure koji za cilj imaju proces
+                  "buđenja kože" i stimulisanja ćelijskih procesa regeneracije a
+                  sve u cilju postizanja prirodnih rezultata u vidu
+                  jedre,blistave,podmlađene kože.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed fs-5"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseNine"
+                  aria-expanded="false"
+                  aria-controls="collapseNine"
+                  data-i18n="anti_third_question"
+                >
+                  Botoks u terapiji bruksizma, migrene i problema sa prekomernim
+                  znojenjem
+                </button>
+              </h2>
+              <div
+                id="collapseNine"
+                class="accordion-collapse collapse fs-5"
+                data-bs-parent="#accordionExample"
+              >
+                <div
+                  class="accordion-body text-start"
+                  data-i18n="anti_third_answer"
+                >
+                  Osim za ublažavanje i prevenciju bora na licu, botoks se u
+                  medicini bezbedno koristi dugi niz godina za lečenje migrene,
+                  prekomernog znojenja kao i u stomatologiji za terapiju
+                  bruksizma (stiskanje i škripanje zubima). Dr Ana ima
+                  višegodišnje iskustvo u ovim naprednim tehnikama lečenja kao i
+                  u upotrebi botoksa u estetske svrhe -tretman horizontalnih
+                  bora na čelu, između obrva, oko očiju.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <button
+            type="button"
+            id="redirect-btn-two"
+            class="btn btn-outline-dark open-btn mt-4 btn-lg"
+            data-i18n="form_button_text"
+          >
+            ZAKAŽITE KONSULTACIJU
+          </button>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div class="container-fluid mt-4 footer text-center">
+        <div class="row mobile-footer-icons">
+          <div class="col-md-4 mt-2"></div>
+          <div class="col-6 mt-2">
+            <div class="row">
+              <div class="col-2 align-content-center mobile-footer">
+                <img
+                  src="../images/Main logo black.svg"
+                  alt="MaisonDental&Aesthetic_logo"
+                />
+              </div>
+              <div
+                class="col-sm-6 border-end border-4 border-dark mobile-footer"
+              >
+                <div class="hstack">
+                  <div class="vstack gap-0">
+                    <div class="hstack gap-5 mx-auto">
+                      <div class="p-2"></div>
+                      <div class="p-2 fs-5">
+                        <a class='link-underline link-underline-opacity-0' data-i18n='home_footer' href='/'>Početna</a
+                        >
+                      </div>
+                    </div>
+                    <div class="hstack gap-5 mx-auto">
+                      <div class="p-2"></div>
+                      <div class="p-2 fs-5">
+                        <a class='link-underline link-underline-opacity-0' data-i18n='about_us_footer' href='/o_nama'>O nama</a
+                        >
+                      </div>
+                    </div>
+                    <div class="hstack gap-5 mx-auto">
+                      <div class="p-2"></div>
+                      <div class="p-2 fs-5">
+                        <a class='link-underline link-underline-opacity-0' data-i18n='services_footer' href='/minimal'>Usluge</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="vstack gap-0">
+                    <div class="hstack gap-5 mx-auto">
+                      <div class="p-2"></div>
+                      <div class="p-2 fs-5">
+                        <a class='link-underline link-underline-opacity-0' data-i18n='galerija-osmeha-footer' href='/before'>Galerija osmeha</a
+                        >
+                      </div>
+                    </div>
+                    <div class="hstack gap-5 mx-auto">
+                      <div class="p-2"></div>
+                      <div class="p-2 fs-5">
+                        <a class='link-underline link-underline-opacity-0' data-i18n='contact_footer' href='/kontakt'>Kontakt</a
+                        >
+                      </div>
+                    </div>
+                    <div class="hstack gap-5 mx-auto">
+                      <div class="p-2"></div>
+                      <div class="p-2 fs-5">
+                        <a
+                          href="pdf/MaisonDental&Aesthetic_Cenovnik2026.pdf"
+                          download="MaisonDental&Aesthetic_Cenovnik2026"
+                          class="link-underline link-underline-opacity-0"
+                          data-i18n="priceslist_footer"
+                          >Cenovnik</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="vstack p-2 gap-4 icons">
+                  <div class="hstack gap-4 mobile-footer-icons">
+                    <a href="https://www.instagram.com/smile_by_dr_ana/">
+                      <ion-icon name="logo-instagram" size="large"></ion-icon>
+                    </a>
+                    <a href="https://wa.me/+381637178337">
+                      <ion-icon name="logo-whatsapp" size="large"></ion-icon>
+                    </a>
+                  </div>
+                  <div class="hstack gap-4 mobile-footer-icons">
+                    <a href="tel://0637178337">
+                      <ion-icon name="call-sharp" size="large"></ion-icon>
+                    </a>
+                    <a href="mailto:info@maisondental.rs">
+                      <ion-icon name="mail" size="large"></ion-icon>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4"></div>
+        </div>
+        <div class="container-fluid mt-3">
+          <p class="fs-5 m-0">COPYRIGHT © MaisonDental</p>
+        </div>
+      </div>
+    </div>
+    <script src="../js/java.js"></script>
+    <script src="../js/translate.js"></script>
+  </body>
+</html>

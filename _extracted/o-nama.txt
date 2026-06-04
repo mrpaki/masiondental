@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="sr-RS">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="keyword"
+      content="folije za ispravljanje zuba beograd, invisalign beograd, invisalign folije, providne folije za ispravljanje zuba, clear aligners belgrade, stomatolog vracar,stomatolog lekino brdo,  deciji stomatolog lekino brdo, botoks beograd, botox lekino brdo, mezoterapija, zubar beograd, zubar, lekino brdo zubar"
+    />
+    <meta
+      name="description"
+      content="U ordinaciji Maison Dental & Aesthetic, posvećeni smo etičkoj stomatološkoj praksi, sa misijom da pacijentima pružimo dugoročno očuvanje zdravlja, funkcije i estetike zuba. "
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MaisonDental&Aesthetic</title>
+    <meta property="og:locale" content="sr_RS" />
+    <meta property="og:locale:alternate" content="en_GB" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Početna - MaisonDental&Aesthetic" />
+    <meta property="og:image" content="./images/Main logo ivory@4x.png" />
+    <meta name="author" content="Filip Velemir" />
+    <link
+      rel="apple-touch-icon"
+      href="./images/Main logo ivory@4x.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="shortcut icon"
+      href="./images/Main logo ivory@4x.png"
+      type="image/x-icon"
+    />
+    <link
+      rel="icon"
+      href="./images/Main logo ivory@4x.png"
+      type="image/x-icon"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <link href="https://fonts.cdnfonts.com/css/lt-soul" rel="stylesheet" />
+    <link rel="stylesheet" href="../css/o_nama.css" />
+    <link rel="stylesheet" href="../LT_soul/font.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <script
+      defer
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      defer
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body class="bg">
+    <div class="container-fluid p-0">
+      <!--NavBar-->
+      <div class="container-fluid nav">
+        <nav class="navbar fixed-top">
+          <div class="container-fluid">
+            <div class="container-fluid align-items-center">
+              <div class="row align-items-center">
+                <div class="col justify-content-start">
+                  <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar"
+                    aria-controls="offcanvasNavbar"
+                    aria-label="Toggle navigation"
+                  >
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                </div>
+                <div class="col-6 d-flex justify-content-center">
+                  <div class="continer-fluid logo navbar-brand">
+                    <img
+                      src="../images/Main logo black.svg"
+                      href="#"
+                      alt="MaisonDental&Aesthetic_logo"
+                    />
+                  </div>
+                </div>
+                <div class="col d-flex justify-content-end button-mobile">
+                  <button
+                    type="button"
+                    id="redirect-btn"
+                    class="btn btn-outline-dark open-button"
+                    data-i18n="form_button_text"
+                  >
+                    ZAKAŽITE KONSULTACIJU
+                  </button>
+                  <!--                   <dialog id="modal" class="px-5">
+                    <div class="container-fluid text-center p-2">
+                      <img
+                        src="../images/Main logo black.svg"
+                        alt=""
+                        style="width: 50%"
+                        alt="MaisonDental&Aesthetic_logo"
+                      />
+                    </div>
+                    <form
+                      name="consultation"
+                      method="POST"
+                      netlify
+                      action="/thanks"
+                    >
+                      <div class="mb-2">
+                        <div class="row mt-2">
+                          <input
+                            type="Ime"
+                            name="Ime"
+                            class="form-control"
+                            placeholder="Ime/Name"
+                            required
+                          />
+                        </div>
+                        <div class="row mt-2">
+                          <input
+                            type="Prezime"
+                            name="Prezime"
+                            class="form-control"
+                            placeholder="Prezime/Surname"
+                            required
+                          />
+                        </div>
+                        <div class="row mt-2">
+                          <input
+                            type="email"
+                            name="email"
+                            class="form-control"
+                            placeholder="E-mail"
+                            required
+                          />
+                        </div>
+                        <div class="row mt-2">
+                          <input
+                            type="text"
+                            name="telephone"
+                            class="form-control"
+                            placeholder="Broj telefona/Telephone number"
+                            required
+                          />
+                        </div>
+                        <div class="row mt-2">
+                          <textarea
+                            type="text"
+                            name="Poruka"
+                            class="form-control poruka"
+                            placeholder="Vasa poruka/Message"
+                            rows="5"
+                            cols="30"
+                            required
+                          ></textarea>
+                        </div>
+                      </div>
+                      <div class="row justify-content-between mt-3">
+                        <div class="col p-0">
+                          <button
+                            type="submit"
+                            class="btn btn-outline-dark btn-block"
+                            lng-tag="send_msg"
+                            data-i18n="text_form"
+                          >
+                            Zakažite termin
+                          </button>
+                        </div>
+                        <div class="col text-end p-0">
+                          <button
+                            type="button"
+                            class="btn btn-outline-dark close-button"
+                            data-i18n="close_btn_form"
+                          >
+                            Zatvorite
+                          </button>
+                        </div>
+                      </div>
+                      <input
+                        type="hidden"
+                        name="_next"
+                        value="https://maisondental.netlify.app/thanks.html"
+                      />
+                    </form>
+                  </dialog> -->
+                </div>
+              </div>
+            </div>
+            <!--Meni-->
+            <div
+              class="offcanvas offcanvas-start"
+              tabindex="-1"
+              id="offcanvasNavbar"
+              aria-labelledby="offcanvasNavbarLabel"
+            >
+              <div class="offcanvas-header justify-content-between">
+                <div>
+                  <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="offcanvas"
+                    aria-label="Close"
+                  ></button>
+                </div>
+                <div>
+                  <button
+                    type="button"
+                    class="btn btn-lg"
+                    onclick="changeLanguage('en')"
+                  >
+                    ENG
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-lg"
+                    onclick="changeLanguage('srb')"
+                  >
+                    SRB
+                  </button>
+                </div>
+              </div>
+              <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                  <li class="nav-item">
+                    <a aria-current='page' class='nav-link active nav-bar-link' data-i18n='home' href='/'>POČETNA</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class='nav-link nav-bar-link' data-i18n='about_us' href='/o_nama'>O NAMA</a
+                    >
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a aria-expanded='false' class='nav-link dropdown-toggle nav-bar-link' data-bs-toggle='dropdown' data-i18n='services' href='/minimal' role='button'>
+                      USLUGE
+                    </a>
+                    <ul class="dropdown-menu dropdown-bg">
+                      <li>
+                        <a class='dropdown-item' data-i18n='service_li1' href='/minimal'>Minimalno invazivna estetska stomatologija</a
+                        >
+                      </li>
+                      <li>
+                        <hr class="dropdown-divider" />
+                      </li>
+                      <li>
+                        <a class='dropdown-item' data-i18n='service_li2' href='/minimal'>Invisalign</a
+                        >
+                      </li>
+                      <li>
+                        <hr class="dropdown-divider" />
+                      </li>
+                      <li>
+                        <a class='dropdown-item' data-i18n='service_li3' href='/minimal'>Anti-ageing i regenerativna estetska medicina</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class='nav-link nav-bar-link' data-i18n='galerija-osmeha' href='/before'>GALERIJA OSMEHA</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link nav-bar-link"
+                      href="pdf/MaisonDental&Aesthetic_Cenovnik2026.pdf"
+                      download="MaisonDental&Aesthetic_Cenovnik2026"
+                      data-i18n="prices"
+                      >CENOVNIK</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class='nav-link nav-bar-link' data-i18n='contact' href='/kontakt'>KONTAKT</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+      <!--Content-->
+      <div class="container-fluid px-4 py-4 about-us-card">
+        <h1 class="text-center" data-i18n="header_about_us">O NAMA</h1>
+        <div class="row justify-content-center">
+          <div class="col-sm mt-3 align-content-center">
+            <a class='d-flex justify-content-center' href='/'>
+              <div class="image-ana"></div>
+            </a>
+          </div>
+          <div
+            class="col-sm p-5 d-flex align-content-center flex-wrap text-center"
+          >
+            <p class="text-break text" data-i18n="about_us_text1">
+              Dr Ana Miladinović je diplomirala na Stomatološkom Fakultetu
+              Univerziteta u Beogradu 2008 godine.
+            </p>
+            <p class="text-break" data-i18n="about_us_text2">
+              Nakon završenog staža i položenog stručnog ispita odlazi u London,
+              Veliku Britaniju gde nostrifikuje diplomu i nastavlja rad u
+              privatnoj praksi. Početak svoje profesionalne karijere posvetila
+              je brojnim edukacijama iz oblasti stomatološke protetike i smile
+              design-a na najistknutijim univerzitetskim klinikama u Londonu-
+              Kings College London, Eastman Dental Institute učeći od najboljih
+              svetskih stručnjaka.
+            </p>
+
+            <p class="text-break" data-i18n="about_us_text3">
+              2017. godine postaje sertifikovani Invsalign provajder i do danas
+              je uspešno tretirala stotine zadovoljnih pacijenata ovim
+              revolucionarnim ortodontskim sistemom
+            </p>
+
+            <p class="text-break" data-i18n="about_us_text4">
+              2018. godine završava postdiplomske studije iz savremene estetske
+              i restaurativne stomatologije sa posebnim fokusom na minimalno
+              invazivnu stomatologiju.
+            </p>
+
+            <p class="text-break" data-i18n="about_us_text5">
+              Dr Ana se specijalizuje u minimalno invazivnim transformacijama
+              osmeha koje između ostalih metoda, podrazumevaju upotrebu
+              Invisalign folija za ispravljanje zuba i kompozitnih materijala
+              poslednje generacije koji omogućavaju neinvazivnu korekciju oblika
+              i boje zuba (bez brušenja i oštećenja zuba) gde kao rezultat
+              pacijenti dobijaju savršen spoj funkcije i estetike bez
+              nepotrebnog žrtvovanja zubnog tkiva.
+            </p>
+
+            <p class="text-break" data-i18n="about_us_text6">
+              Dr Ana se od 2016. godine paralelno usavršava u oblasti estetske
+              medicine i anti-ageing procedura a poslednjih godina i
+              regenerativnoj estetskoj medicini upotrebom polinukleotida i
+              exosoma sve u cilju održavanja prirodnog, negovanog i svežeg
+              izgleda vašeg lica i kože.
+            </p>
+
+            <p class="text-break" data-i18n="about_us_text7">
+              Dr Miladinović redovno tretira internacionalne pacijente u
+              Centralnom Londonu, Wimpole Street, Marylebone.
+            </p>
+
+            <div class="container-fluid pt-4 text-center">
+              <button
+                type="button"
+                id="redirect-btn-two"
+                class="btn btn-outline-dark open-btn btn-lg"
+                data-i18n="form_button_text"
+              >
+                ZAKAŽITE KONSULTACIJU
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Slider-->
+      <div class="container-fluid text-center mt-2">
+        <h2 class="pt-5" data-i18n="testimonials">ISKUSTVA NAŠIH PACIJENATA</h2>
+        <div
+          id="carouselExampleSlidesOnly"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row text-center p-5">
+                <div class="col-md-4 col-12">
+                  <div
+                    class="container-fluid slider-cards p-2 mini align-content-center"
+                  >
+                    <h4>Patrice Halligan</h4>
+                    <p class="fs-5">
+                      " Had a wonderful experience with Ana, she educated me
+                      throughout my treatment which left me feeling reassured
+                      for each appointment. I was over the moon with my end
+                      results and felt like they were even better than expected!
+                      Would 100% recommend Ana to other potential clients, I
+                      felt reassured from the moment I had my consultation right
+                      until the last appointment. "
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-4 col-12">
+                  <div
+                    class="container-fluid slider-cards p-2 mini align-content-center"
+                  >
+                    <h4>Gab Dicset</h4>
+                    <p class="fs-5">
+                      " I transferred to this dentist over a year ago as I
+                      changed jobs and can confidently say Ana Miladinovic is
+                      the best dentist I've had so far. I've recently completed
+                      my Invisalign treatment with her and found the advice &
+                      guidance very helpful and intend to stay at this practice
+                      despite moving across the other side of the river - well
+                      worth the commute! "
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-4 col-12">
+                  <div
+                    class="container-fluid slider-cards p-2 align-content-center"
+                  >
+                    <h4>Weston Macklem</h4>
+                    <p class="fs-5">
+                      " Dr Ana is the best kept secret in dentistry. Her
+                      positive approach and focus on keeping patients calm and
+                      informed throughout every step of their procedures really
+                      does put them at ease. I've recommended her services to
+                      numerous colleagues and friends and really feel that I've
+                      found a dentist for life."
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row text-center p-5">
+                <div class="col-md-4 col-12">
+                  <div
+                    class="container-fluid slider-cards p-2 mini align-content-center"
+                  >
+                    <h4>Claudia Cattell</h4>
+                    <p class="fs-5">
+                      " I recently received some treatment from Ana Miladinovic.
+                      She was fantastic! I was very impressed with the level of
+                      care and attention that she applied to me. I was quite
+                      nervous and she was very good at reassuring me and made me
+                      feel very at ease. Overall, I had a really good experience
+                      and would definitely recommend Ana and her practice. "
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-4 col-12">
+                  <div
+                    class="container-fluid slider-cards p-2 align-content-center"
+                  >
+                    <h4>Carolina Attili</h4>
+                    <p class="fs-5">
+                      " I had a great experience with Doctor Ana. She has been
+                      extremely helpful and professional and she happily
+                      assisted with every question of doubt I had. It is nice to
+                      be treated by someone so passionate about their job. "
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-4 col-6">
+                  <div
+                    class="container-fluid slider-cards p-2 mini align-content-center"
+                  >
+                    <h4>Elise Joselyn</h4>
+                    <p class="fs-5">
+                      " Highly recommend this practice and in particular, Ana,
+                      if you’re wanting Invisalign. I have just completed my
+                      treatment and couldn’t be happier with the results! Ana
+                      made sure I was happy at every stage and kept me informed
+                      throughout. It’s so great to have gone through this
+                      treatment with someone that takes pride in their work and
+                      the results show. I love my new smile and can’t thank you
+                      enough for all your work! All the best to you and your
+                      team! "
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row text-center p-5">
+                <div class="col-md-4 col-12">
+                  <div
+                    class="container-fluid slider-cards p-2 align-content-center"
+                  >
+                    <h4>Ania Rherri</h4>
+                    <p class="fs-5">
+                      " I have been lucky to have a pleasure to meet Ana
+                      Miladinovic who is not only a great dentist 🦷 but also an
+                      expert when it comes to Invisalign Within 6 months my
+                      teeth straightened and are looking great. Ana and the team
+                      were great, very professional and supportive. I would def
+                      recommend Ana if you are thinking of getting your teeth
+                      straight, healthy and beautiful. "
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-4 col-12">
+                  <div
+                    class="container-fluid slider-cards p-2 mini align-content-center"
+                  >
+                    <h4>Marta Zatowska</h4>
+                    <p class="fs-5">
+                      " I have been so blessed to meet Dr. Ana Miladinovic💗
+                      After having had a previous experience that was not ideal,
+                      I was reluctant to find a new dentist that I could trust.
+                      She immediately puts you at ease with her calm and sweet
+                      demeanor. She has a special way of making your visit
+                      personalized, comfortable. If you've been waiting to make
+                      an appointment, you should definitely call today!
+                      ABSOLUTELY PROFESSIONAL SERVICE. Thank you for restoring
+                      my confidence and happiness! "
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-4 col-6">
+                  <div
+                    class="container-fluid slider-cards p-2 mini align-content-center"
+                  >
+                    <h4>D Hajaj</h4>
+                    <p class="fs-5">
+                      " A huge belated thank you to the wonderful Dr Ana
+                      Miladinovic. I'm so pleased with my teeth now. Ana has
+                      such a great eye for detail and I love that she is a
+                      perfectionist. She was so patient and made every effort to
+                      make changes only I would really notice. I'm absolutely
+                      thrilled. My teeth have never been this straight and I
+                      love smiling now. She's brilliant, super professional -
+                      really knows her stuff, AND listens to what YOU want.
+                      Going to see Dr Ana for Invisalign was the best investment
+                      in myself. Don't hesitate! "
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div class="container-fluid footer text-center">
+        <!--Sklonio sam mt-4 odavde da bi bilo sve iste boje-->
+        <div class="row mobile-footer-icons">
+          <div class="col-md-4 mt-2"></div>
+          <div class="col-6 mt-2">
+            <div class="row">
+              <div class="col-2 align-content-center mobile-footer">
+                <img
+                  src="../images/Main logo black.svg"
+                  alt="MaisonDental&Aesthetic_logo"
+                />
+              </div>
+              <div
+                class="col-sm-6 border-end border-4 border-dark mobile-footer"
+              >
+                <div class="hstack">
+                  <div class="vstack gap-0">
+                    <div class="hstack gap-5 mx-auto">
+                      <div class="p-2"></div>
+                      <div class="p-2 fs-5">
+                        <a class='link-underline link-underline-opacity-0' data-i18n='home_footer' href='/'>Početna</a
+                        >
+                      </div>
+                    </div>
+                    <div class="hstack gap-5 mx-auto">
+                      <div class="p-2"></div>
+                      <div class="p-2 fs-5">
+                        <a class='link-underline link-underline-opacity-0' data-i18n='about_us_footer' href='/o_nama'>O nama</a
+                        >
+                      </div>
+                    </div>
+                    <div class="hstack gap-5 mx-auto">
+                      <div class="p-2"></div>
+                      <div class="p-2 fs-5">
+                        <a class='link-underline link-underline-opacity-0' data-i18n='services_footer' href='/minimal'>Usluge</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="vstack gap-0">
+                    <div class="hstack gap-5 mx-auto">
+                      <div class="p-2"></div>
+                      <div class="p-2 fs-5">
+                        <a class='link-underline link-underline-opacity-0' data-i18n='galerija-osmeha-footer' href='/before'>Galerija osmeha</a
+                        >
+                      </div>
+                    </div>
+                    <div class="hstack gap-5 mx-auto">
+                      <div class="p-2"></div>
+                      <div class="p-2 fs-5">
+                        <a class='link-underline link-underline-opacity-0' data-i18n='contact_footer' href='/kontakt'>Kontakt</a
+                        >
+                      </div>
+                    </div>
+                    <div class="hstack gap-5 mx-auto">
+                      <div class="p-2"></div>
+                      <div class="p-2 fs-5">
+                        <a
+                          href="pdf/MaisonDental&Aesthetic_Cenovnik2026.pdf"
+                          download="MaisonDental&Aesthetic_Cenovnik2026"
+                          class="link-underline link-underline-opacity-0"
+                          data-i18n="priceslist_footer"
+                          >Cenovnik</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="vstack p-2 gap-4 icons">
+                  <div class="hstack gap-4 mobile-footer-icons">
+                    <a href="https://www.instagram.com/smile_by_dr_ana/">
+                      <ion-icon name="logo-instagram" size="large"></ion-icon>
+                    </a>
+                    <a href="https://wa.me/+381637178337">
+                      <ion-icon name="logo-whatsapp" size="large"></ion-icon>
+                    </a>
+                  </div>
+                  <div class="hstack gap-4 mobile-footer-icons">
+                    <a href="tel://0637178337">
+                      <ion-icon name="call-sharp" size="large"></ion-icon>
+                    </a>
+
+                    <a href="mailto:info@maisondental.rs">
+                      <ion-icon name="mail" size="large"></ion-icon>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4"></div>
+        </div>
+        <div class="container-fluid mt-3">
+          <p class="fs-5 m-0">COPYRIGHT © MaisonDental</p>
+        </div>
+      </div>
+    </div>
+    <script src="../js/java.js"></script>
+    <script src="../js/translate.js"></script>
+  </body>
+</html>
