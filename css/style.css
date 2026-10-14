@@ -716,10 +716,10 @@ p { color: var(--c-ink-2); }
 
 .footer__logo img {
   width: 100%;
-  max-width: 320px;
+  max-width: 288px;
   height: auto;
   display: block;
-  margin: 0 auto 1rem;
+  margin: 0 0 1rem;
 }
 
 .footer__logo span { color: var(--c-accent); }
