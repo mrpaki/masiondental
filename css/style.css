@@ -715,10 +715,11 @@ p { color: var(--c-ink-2); }
 }
 
 .footer__logo img {
-  height: 96px;
-  width: auto;
+  width: 100%;
+  max-width: 320px;
+  height: auto;
   display: block;
-  margin-bottom: 1rem;
+  margin: 0 auto 1rem;
 }
 
 .footer__logo span { color: var(--c-accent); }
