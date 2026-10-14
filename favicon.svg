@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-label="MaisonDental &amp; Aesthetic">
+  <title>MaisonDental &amp; Aesthetic</title>
+  <rect width="120" height="120" rx="20" fill="#1A1917"/>
+  <g fill="none" stroke="#C4A882" stroke-width="5" stroke-linejoin="miter">
+    <path d="M 22 50 L 60 25 L 98 50 L 98 97 L 22 97 Z"/>
+  </g>
+  <g transform="translate(42.303 7.415) scale(0.22084)"><path fill="#FAFAF8" d="M 138.289062 373.957031 L 147.695312 373.957031 L 147.695312 201.886719 L 140.167969 201.886719 L 82.015625 330.011719 L 23.863281 201.886719 L 12.570312 201.886719 L 20.289062 218.5625 L 20.289062 373.957031 L 29.695312 373.957031 C 26.308594 351.984375 22.171875 329.21875 22.171875 242.386719 L 22.171875 222.800781 L 73.734375 336.101562 L 81.453125 336.101562 L 138.289062 210.886719 Z M 138.289062 373.957031 "/></g>
+</svg>

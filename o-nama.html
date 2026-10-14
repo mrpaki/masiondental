@@ -19,6 +19,8 @@
     .lang-toggle-btn span:hover { color:var(--c-ink); }
     .lang-sep { color:var(--c-border); }
   </style>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="favicon-180.png">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -26,7 +28,9 @@
   <!-- NAVIGATION -->
   <nav class="nav" aria-label="Glavna navigacija">
     <div class="nav__inner">
-      <a href="index.html" class="nav__logo">Maison<span>Dental</span></a>
+      <a href="index.html" class="nav__logo" aria-label="MaisonDental &amp; Aesthetic — početna">
+      <img src="images/maisondental-logo-primary.svg" alt="MaisonDental &amp; Aesthetic" height="48" loading="eager">
+    </a>
       <ul class="nav__links" role="list">
         <li><a href="index.html" data-i18n="nav.home">Početna</a></li>
         <li><a href="o-nama.html" data-i18n="nav.about">O nama</a></li>
@@ -286,7 +290,9 @@
     <div class="container">
       <div class="footer__grid">
         <div>
-          <div class="footer__logo">Maison<span>Dental</span></div>
+          <div class="footer__logo">
+            <img src="images/maisondental-logo-dark.svg" alt="MaisonDental &amp; Aesthetic" height="72" loading="lazy">
+          </div>
           <p class="footer__desc" data-i18n="footer.desc">Privatna stomatološka ordinacija u Beogradu. Minimalno invazivna stomatologija, Invisalign i anti-ageing procedura.</p>
           <div class="footer__social">
             <a href="https://www.instagram.com/smile_by_dr_ana/" class="footer__social-link" target="_blank" rel="noopener" aria-label="Instagram profil">IG</a>
