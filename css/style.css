@@ -715,7 +715,7 @@ p { color: var(--c-ink-2); }
 }
 
 .footer__logo img {
-  height: 48px;
+  height: 96px;
   width: auto;
   display: block;
   margin-bottom: 1rem;
