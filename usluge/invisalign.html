@@ -18,6 +18,15 @@
     .lang-toggle-btn span { cursor:pointer; padding:2px 4px; border-radius:4px; transition:color .2s; }
     .lang-toggle-btn span:hover { color:var(--c-ink); }
     .lang-sep { color:var(--c-border); }
+  .inv-hero-grid { display:grid; grid-template-columns:1fr 1fr; align-items:center; gap:3rem; }
+  .inv-hero-badge { display:flex; justify-content:center; align-items:center; }
+  .inv-hero-badge img { max-width:280px; width:100%; opacity:.85; transition:opacity .2s; }
+  .inv-hero-badge a:hover img { opacity:1; }
+  @media (max-width:767px) {
+    .inv-hero-grid { grid-template-columns:1fr; }
+    .inv-hero-badge { margin-top:2rem; }
+    .inv-hero-badge img { max-width:200px; }
+  }
   </style>
   <link rel="icon" href="../favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="../favicon-180.png">
@@ -76,17 +85,24 @@
   <main>
     <!-- PAGE HERO -->
     <div class="page-hero">
-      <div class="container">
-        <nav class="breadcrumb" aria-label="Breadcrumb">
-          <a href="../index.html">Početna</a>
-          <span aria-hidden="true">›</span>
-          <a href="../index.html#usluge">Usluge</a>
-          <span aria-hidden="true">›</span>
-          <span>Invisalign</span>
-        </nav>
-        <p class="eyebrow" data-i18n="inv.hero.eyebrow">Ortodoncija</p>
-        <h1 data-i18n="inv.hero.h1">Invisalign</h1>
-        <p data-i18n="inv.hero.p">Jedini originalni američki sistem providnih folija za ispravljanje zuba. Diskretan, komforan, predvidiv.</p>
+      <div class="container inv-hero-grid">
+        <div>
+          <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="../index.html">Početna</a>
+            <span aria-hidden="true">›</span>
+            <a href="../index.html#usluge">Usluge</a>
+            <span aria-hidden="true">›</span>
+            <span>Invisalign</span>
+          </nav>
+          <p class="eyebrow" data-i18n="inv.hero.eyebrow">Ortodoncija</p>
+          <h1 data-i18n="inv.hero.h1">Invisalign</h1>
+          <p data-i18n="inv.hero.p">Jedini originalni američki sistem providnih folija za ispravljanje zuba. Diskretan, komforan, predvidiv.</p>
+        </div>
+        <div class="inv-hero-badge">
+          <a href="https://www.invisalign.com/" target="_blank" rel="noopener noreferrer" aria-label="Invisalign Provider — zvanični sajt">
+            <img src="../images/sertifikati/invisalign-provider.png" alt="Invisalign Provider" width="260" loading="eager" decoding="async">
+          </a>
+        </div>
       </div>
     </div>
 
