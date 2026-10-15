@@ -166,4 +166,57 @@
     });
   })();
 
+
+  /* ── brand logo animacija ── */
+/* ============================================================
+   MAISONDENTAL — pokretanje logotipa u headeru
+   Dodati na kraj js/main.js
+   ============================================================ */
+(function () {
+  'use strict';
+
+  var brand = document.querySelector('.brand');
+  if (!brand) return;
+
+  // ---- podesavanja -------------------------------------------------
+  // 'session' — animacija se igra jednom po poseti (preporuceno)
+  // 'always'  — na svakom ucitavanju stranice
+  var PLAY = 'session';
+
+  // true — pri skrolovanju nadole logo se skupi nazad u pecat
+  var COLLAPSE_ON_SCROLL = false;
+  // ------------------------------------------------------------------
+
+  var reduce = window.matchMedia &&
+               window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  var seen = false;
+  try { seen = sessionStorage.getItem('md-brand') === '1'; } catch (e) {}
+
+  function open() { brand.classList.add('is-open'); }
+
+  if (reduce || (PLAY === 'session' && seen)) {
+    open();                                   // odmah konacno stanje
+  } else {
+    requestAnimationFrame(function () {
+      requestAnimationFrame(function () {
+        setTimeout(open, 260);                // kratka pauza pa odmotavanje
+      });
+    });
+    try { sessionStorage.setItem('md-brand', '1'); } catch (e) {}
+  }
+
+  if (COLLAPSE_ON_SCROLL && !reduce) {
+    var ticking = false;
+    window.addEventListener('scroll', function () {
+      if (ticking) return;
+      ticking = true;
+      requestAnimationFrame(function () {
+        brand.classList.toggle('is-open', window.scrollY < 120);
+        ticking = false;
+      });
+    }, { passive: true });
+  }
+})();
+
 })();

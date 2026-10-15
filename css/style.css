@@ -1143,3 +1143,86 @@ p { color: var(--c-ink-2); }
 
 /* Body locked when mobile menu open */
 body.menu-open { overflow: hidden; }
+
+/* ============================================================
+   MAISONDENTAL — brend u headeru i footeru
+   Dodati na kraj css/style.css
+   Boje se uzimaju iz postojecih promenljivih sajta.
+   ============================================================ */
+
+/* ---------- HEADER: pecat koji se odmotava u natpis ---------- */
+
+.brand {
+  display: inline-flex;
+  align-items: center;
+  flex: 0 0 auto;
+  line-height: 0;
+  color: var(--c-ink);
+  text-decoration: none;
+}
+
+.brand__mark {
+  display: block;
+  height: 52px;
+  width: 52px;                /* skupljeno: vidi se samo pecat */
+  overflow: visible;          /* da se slovo ne preseca u letu */
+  transition: width 700ms cubic-bezier(.22, .9, .3, 1);
+}
+
+.brand.is-open .brand__mark {
+  width: 117px;               /* razvuceno: ceo natpis */
+}
+
+/* svako slovo ima dva stanja: --a pecat, --b linija */
+.ml-g {
+  transform-box: view-box;
+  transform-origin: 0 0;
+  transform: var(--a);
+  transition: transform 980ms cubic-bezier(.22, .9, .28, 1);
+  transition-delay: var(--d);
+}
+
+.brand.is-open .ml-g {
+  transform: var(--b);
+}
+
+/* ---------- FOOTER: pecat kao mirni znak ---------- */
+
+.footer__seal {
+  display: inline-block;
+  line-height: 0;
+}
+
+.footer__seal img {
+  display: block;
+  width: 96px;
+  height: 96px;
+  opacity: .92;
+  transition: opacity .3s ease;
+}
+
+.footer__seal:hover img,
+.footer__seal:focus-visible img {
+  opacity: 1;
+}
+
+.footer__seal:focus-visible {
+  outline: 2px solid var(--c-accent);
+  outline-offset: 6px;
+  border-radius: 50%;
+}
+
+/* ---------- mobilni ---------- */
+
+@media (max-width: 760px) {
+  .brand__mark            { height: 42px; width: 42px; }
+  .brand.is-open .brand__mark { width: 95px; }
+  .footer__seal img       { width: 80px; height: 80px; }
+}
+
+/* ---------- bez animacije ---------- */
+
+@media (prefers-reduced-motion: reduce) {
+  .brand__mark,
+  .ml-g { transition: none !important; }
+}
