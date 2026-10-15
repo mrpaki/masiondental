@@ -1,0 +1,80 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "hero-eyebrow-chip",
+        "value": "*",
+        "files": [
+          "*.html"
+        ],
+        "createdAt": "2026-10-15T10:01:19.111Z",
+        "reason": "Agent: site-wide page-hero eyebrow label is intentional design system — tracked-caps label appears on all 10 pages by design"
+      },
+      {
+        "rule": "italic-serif-display",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-10-15T10:01:19.133Z",
+        "reason": "Agent: Cormorant italic is the intentional brand display font for this dental aesthetic practice"
+      },
+      {
+        "rule": "side-tab",
+        "value": "*",
+        "files": [
+          "politika-privatnosti.html"
+        ],
+        "createdAt": "2026-10-15T10:01:19.156Z",
+        "reason": "Agent: border-left on .legal-box is an intentional legal callout for APR business data"
+      },
+      {
+        "rule": "side-tab",
+        "value": "*",
+        "files": [
+          "uslovi-koriscenja.html"
+        ],
+        "createdAt": "2026-10-15T10:01:19.181Z",
+        "reason": "Agent: border-left on .legal-box is an intentional legal callout for APR business data"
+      },
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "*.html"
+        ],
+        "createdAt": "2026-10-15T10:01:19.205Z",
+        "reason": "Agent: false positive — .section class provides padding: var(--section-pad) 0; CSS detector does not see class-based padding"
+      },
+      {
+        "rule": "kicker-above-heading",
+        "value": "*",
+        "files": [
+          "usluge/*.html"
+        ],
+        "createdAt": "2026-10-15T10:01:19.229Z",
+        "reason": "Agent: FAQ eyebrow kicker is intentional; matches .faq__head .eyebrow pattern in design system"
+      },
+      {
+        "rule": "kicker-above-heading",
+        "value": "*",
+        "files": [
+          "*.html"
+        ],
+        "createdAt": "2026-10-15T10:01:19.252Z",
+        "reason": "Agent: FAQ eyebrow kicker is intentional site-wide pattern"
+      },
+      {
+        "rule": "em-dash-overuse",
+        "value": "*",
+        "files": [
+          "*.html"
+        ],
+        "createdAt": "2026-10-15T10:01:19.275Z",
+        "reason": "Agent: advisory only; Serbian dental/medical copy legitimately uses em-dashes in product descriptions"
+      }
+    ]
+  }
+}

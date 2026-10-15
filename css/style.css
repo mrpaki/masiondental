@@ -882,7 +882,7 @@ p { color: var(--c-ink-2); }
   margin-bottom: 1.5rem;
 }
 .breadcrumb a { color: var(--c-ink-2); transition: color 0.2s; }
-.breadcrumb a:hover { color: var(--c-accent-dark); }
+.breadcrumb a:hover { color: #7A5C3A; }
 .breadcrumb span { color: var(--c-ink-2); }
 
 /* =============================================
@@ -913,7 +913,7 @@ p { color: var(--c-ink-2); }
   gap: 1rem;
   transition: color 0.2s;
 }
-.faq-item__question:hover { color: var(--c-accent-dark); }
+.faq-item__question:hover { color: #7A5C3A; }
 
 .faq-item__icon {
   width: 28px;
@@ -987,7 +987,7 @@ p { color: var(--c-ink-2); }
 }
 .contact-info__value { color: var(--c-ink); font-size: 0.97rem; }
 .contact-info__value a { transition: color 0.2s; }
-.contact-info__value a:hover { color: var(--c-accent-dark); }
+.contact-info__value a:hover { color: #7A5C3A; }
 
 .map-wrap {
   border-radius: 16px;
