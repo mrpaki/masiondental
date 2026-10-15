@@ -155,4 +155,15 @@
     });
   });
 
+  /* ── 9. Rondo footer widget ── */
+  (function(){
+    var btn  = document.getElementById('footer-rondo-btn');
+    var wrap = document.getElementById('footer-rondo');
+    var lbl  = document.getElementById('footer-rondo-label');
+    if(btn && wrap) btn.addEventListener('click', function(){
+      var open = wrap.classList.toggle('open');
+      if(lbl){ lbl.setAttribute('aria-hidden', String(!open)); lbl.tabIndex = open ? 0 : -1; }
+    });
+  })();
+
 })();
