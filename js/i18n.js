@@ -105,7 +105,7 @@
       'index.stats.4.lbl':      'minimalno invazivni pristup',
 
       'index.test.eyebrow':     'Iskustva naših pacijenata',
-      'index.test.h2':          'Šta kažu pacijenti',
+      'index.test.h2':          'Iskustva naših pacijenata',
       'index.test.1.quote':     'Ranije nisam bio potpuno zadovoljan svojim zubima i želeo sam manje korekcije. Dr Anu sam izabrao nakon razgovora sa njom, tokom kog je sve objasnila veoma studiozno, detaljno i strpljivo, što mi je ulilo veliko poverenje od samog početka. Posebno mi se svideo njen minimalno invazivan pristup, bez prevelikih promena i „brušenja" zdravih zuba. Nakon završene Invisalign terapije uradio sam kućno izbeljivanje, a potom i edge bonding na nekoliko oštećenih zuba. Prezadovoljan sam krajnjim rezultatom! Sve pohvale i iskrena preporuka za dr Anu!',
       'index.test.1.name':      'Vuk Vuković',
       'index.test.1.avatar':    'V',
@@ -501,7 +501,7 @@
       'index.stats.4.lbl':      'minimally invasive approach',
 
       'index.test.eyebrow':     'Patient experiences',
-      'index.test.h2':          'What patients say',
+      'index.test.h2':          'Testimonials',
       'index.test.1.quote':     'Had a wonderful experience with Ana, she educated me throughout my treatment which left me feeling reassured for each appointment. I was over the moon with my end results and felt like they were even better than expected! Would 100% recommend Ana to other potential clients.',
       'index.test.1.name':      'Patrice Halligan',
       'index.test.1.avatar':    'P',
