@@ -544,7 +544,6 @@ p { color: var(--c-ink-2); }
    ABOUT SECTION
    ============================================= */
 .about__img-wrap {
-  aspect-ratio: 3/4;
   border-radius: 20px;
   overflow: hidden;
 }
