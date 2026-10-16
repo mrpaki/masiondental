@@ -794,11 +794,14 @@
     }
   };
 
-  var currentLang = localStorage.getItem('md-lang') || 'sr';
+  function lsGet(k) { try { return localStorage.getItem(k); } catch(e) { return null; } }
+  function lsSet(k, v) { try { localStorage.setItem(k, v); } catch(e) {} }
+
+  var currentLang = lsGet('md-lang') || 'sr';
 
   function applyLang(lang) {
     currentLang = lang;
-    localStorage.setItem('md-lang', lang);
+    lsSet('md-lang', lang);
     document.documentElement.lang = lang;
 
     document.querySelectorAll('[data-i18n]').forEach(function (el) {
