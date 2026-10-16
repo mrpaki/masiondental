@@ -18,6 +18,10 @@
     .lang-toggle-btn span { cursor:pointer; padding:2px 4px; border-radius:4px; transition:color .2s; }
     .lang-toggle-btn span:hover { color:var(--c-ink); }
     .lang-sep { color:var(--c-border); }
+    .oNama-hero-grid { display:grid; grid-template-columns:1fr auto; align-items:center; gap:3rem; }
+    .oNama-hero-seal { display:flex; justify-content:center; align-items:center; }
+    .oNama-hero-seal img { width:160px; height:160px; opacity:.9; }
+    @media (max-width:760px) { .oNama-hero-grid { grid-template-columns:1fr; } .oNama-hero-seal { margin-top:1.5rem; } .oNama-hero-seal img { width:120px; height:120px; } }
   </style>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="favicon-180.png">
@@ -101,15 +105,19 @@
   <main>
     <!-- PAGE HERO -->
     <div class="page-hero">
-      <div class="container">
-        <nav class="breadcrumb" aria-label="Breadcrumb">
-          <a href="index.html">Početna</a>
-          <span aria-hidden="true">›</span>
-          <span>O nama</span>
-        </nav>
-        <p class="eyebrow" data-i18n="oNama.hero.eyebrow">Dr Ana Miladinović</p>
-        <h1 data-i18n="oNama.hero.h1">O nama</h1>
-        <p data-i18n="oNama.hero.p">Petnaest godina posvećenosti minimalno invazivnoj stomatologiji i estetskoj medicini.</p>
+      <div class="container oNama-hero-grid">
+        <div>
+          <nav class="breadcrumb" aria-label="Breadcrumb">
+            <a href="index.html">Početna</a>
+            <span aria-hidden="true">›</span>
+            <span>O nama</span>
+          </nav>
+          <h1 data-i18n="oNama.hero.h1">O nama</h1>
+          <p data-i18n="oNama.hero.p">Osamnaest godina posvećenosti minimalno invazivnoj stomatologiji i estetskoj medicini.</p>
+        </div>
+        <div class="oNama-hero-seal">
+          <img src="images/maisondental-seal-bronze.svg" alt="MaisonDental & Aesthetic" width="160" height="160" loading="eager" decoding="async">
+        </div>
       </div>
     </div>
 
@@ -117,8 +125,8 @@
     <section class="section">
       <div class="container">
         <div class="grid-2">
-          <div class="about__img-wrap img-placeholder reveal" role="img" aria-label="Dr Ana Miladinović">
-            <!-- Replace with: images/dr-ana-portrait.webp -->
+          <div class="about__img-wrap reveal">
+            <img src="images/dr-ana-miladinovic.webp" alt="Dr Ana Miladinović — MaisonDental &amp; Aesthetic" width="900" loading="eager" decoding="async" style="width:100%;height:100%;object-fit:cover;display:block;">
           </div>
           <div class="reveal">
             <p class="eyebrow" style="margin-bottom:1rem" data-i18n="oNama.bio.eyebrow">Biografija</p>
@@ -211,8 +219,27 @@
       </div>
     </section>
 
+    <!-- DR TATJANA BIO -->
+    <section class="section" style="background:#FAFAF8">
+      <div class="container">
+        <div class="grid-2">
+          <div class="reveal">
+            <p class="eyebrow" style="margin-bottom:1rem">Tim</p>
+            <h2 style="margin-bottom:1.5rem">Dr Tatjana Jovanović</h2>
+            <p style="margin-bottom:1.25rem">Dr Tatjana je diplomirala na Stomatološkom fakultetu u Beogradu 2024. godine. Nakon završenog stručnog staža na Stomatološkom fakultetu, počinje rad u privatnoj praksi i dodatno se usavršava u svim oblastima stomatologije i estetskoj medicini.</p>
+            <p style="margin-bottom:1.25rem">Posebnu ljubav neguje prema oralnoj hirurgiji i estetskoj, minimalno invazivnoj stomatologiji.</p>
+            <p style="margin-bottom:1.25rem">Član je Udruženja stomatologa Srbije za alajnere i svakodnevno učestvuje u sprovođenju i praćenju terapije Invisalign folijama.</p>
+            <p>Dr Tatjanu krase strpljenje, nežnost i sposobnost da opusti i najzabrinutije pacijente, a njena stručnost i pažnja ka detaljima su vidljivi pri svakom tretmanu koji sprovede.</p>
+          </div>
+          <div class="about__img-wrap reveal">
+            <img src="images/dr-tatjana-jovanovic.webp" alt="Dr Tatjana Jovanović — MaisonDental &amp; Aesthetic" width="900" loading="lazy" decoding="async" style="width:100%;height:100%;object-fit:cover;display:block;">
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- TESTIMONIALS -->
-    <section class="section" id="iskustva">
+    <section class="section" id="iskustva" style="background:#F4F0EB">
       <div class="container">
         <div class="testimonials__head reveal">
           <p class="eyebrow" data-i18n="oNama.test.eyebrow">Iskustva naših pacijenata</p>
@@ -221,78 +248,88 @@
         <div class="grid-3">
 
           <div class="testimonial-card reveal">
-            <p class="testimonial-card__quote">Had a wonderful experience with Ana, she educated me throughout my treatment which left me feeling reassured for each appointment. I was over the moon with my end results and felt like they were even better than expected! Would 100% recommend Ana to other potential clients.</p>
-            <div class="testimonial-card__author">
-              <div class="testimonial-card__avatar" aria-hidden="true">P</div>
-              <div><div class="testimonial-card__name">Patrice Halligan</div><div class="testimonial-card__stars" aria-label="5 zvezdica">★★★★★</div></div>
-            </div>
-          </div>
-
-          <div class="testimonial-card reveal reveal--delay-1">
-            <p class="testimonial-card__quote">I transferred to this dentist over a year ago as I changed jobs and can confidently say Ana Miladinovic is the best dentist I've had so far. I've recently completed my Invisalign treatment with her and found the advice &amp; guidance very helpful and intend to stay at this practice despite moving across the other side of the river.</p>
-            <div class="testimonial-card__author">
-              <div class="testimonial-card__avatar" aria-hidden="true">G</div>
-              <div><div class="testimonial-card__name">Gab Dicset</div><div class="testimonial-card__stars" aria-label="5 zvezdica">★★★★★</div></div>
-            </div>
-          </div>
-
-          <div class="testimonial-card reveal reveal--delay-2">
-            <p class="testimonial-card__quote">Dr Ana is the best kept secret in dentistry. Her positive approach and focus on keeping patients calm and informed throughout every step of their procedures really does put them at ease. I've recommended her services to numerous colleagues and friends.</p>
-            <div class="testimonial-card__author">
-              <div class="testimonial-card__avatar" aria-hidden="true">W</div>
-              <div><div class="testimonial-card__name">Weston Macklem</div><div class="testimonial-card__stars" aria-label="5 zvezdica">★★★★★</div></div>
-            </div>
-          </div>
-
-          <div class="testimonial-card reveal">
-            <p class="testimonial-card__quote">I recently received some treatment from Ana Miladinovic. She was fantastic! I was very impressed with the level of care and attention that she applied to me. I was quite nervous and she was very good at reassuring me and made me feel very at ease.</p>
-            <div class="testimonial-card__author">
-              <div class="testimonial-card__avatar" aria-hidden="true">C</div>
-              <div><div class="testimonial-card__name">Claudia Cattell</div><div class="testimonial-card__stars" aria-label="5 zvezdica">★★★★★</div></div>
-            </div>
-          </div>
-
-          <div class="testimonial-card reveal reveal--delay-1">
-            <p class="testimonial-card__quote">I had a great experience with Doctor Ana. She has been extremely helpful and professional and she happily assisted with every question of doubt I had. It is nice to be treated by someone so passionate about their job.</p>
-            <div class="testimonial-card__author">
-              <div class="testimonial-card__avatar" aria-hidden="true">C</div>
-              <div><div class="testimonial-card__name">Carolina Attili</div><div class="testimonial-card__stars" aria-label="5 zvezdica">★★★★★</div></div>
-            </div>
-          </div>
-
-          <div class="testimonial-card reveal reveal--delay-2">
-            <p class="testimonial-card__quote">Highly recommend this practice and in particular, Ana, if you're wanting Invisalign. I have just completed my treatment and couldn't be happier with the results! Ana made sure I was happy at every stage and kept me informed throughout.</p>
-            <div class="testimonial-card__author">
-              <div class="testimonial-card__avatar" aria-hidden="true">E</div>
-              <div><div class="testimonial-card__name">Elise Joselyn</div><div class="testimonial-card__stars" aria-label="5 zvezdica">★★★★★</div></div>
-            </div>
-          </div>
-
-          <div class="testimonial-card reveal">
-            <p class="testimonial-card__quote">I have been lucky to have a pleasure to meet Ana Miladinovic who is not only a great dentist but also an expert when it comes to Invisalign. Within 6 months my teeth straightened and are looking great. Ana and the team were great, very professional and supportive.</p>
+            <p class="testimonial-card__quote">Ako tražite zaista dobrog stomatologa u Beogradu — iskrena preporuka za Maison Dental &amp; Aesthetic 🤍 Rad je veoma precizan, pristup je nežan i sve se radi sa merom, bez prisiljavanja na nepotrebne intervencije. Pogotovo ako su vam estetika i prirodni izgled vaših zuba važni — ovde ste bezbedni.</p>
             <div class="testimonial-card__author">
               <div class="testimonial-card__avatar" aria-hidden="true">A</div>
-              <div><div class="testimonial-card__name">Ania Rherri</div><div class="testimonial-card__stars" aria-label="5 zvezdica">★★★★★</div></div>
+              <div><div class="testimonial-card__name">Anastasija Stojanović</div><div class="testimonial-card__stars" aria-label="5 zvezdica">★★★★★</div></div>
             </div>
           </div>
 
           <div class="testimonial-card reveal reveal--delay-1">
-            <p class="testimonial-card__quote">I have been so blessed to meet Dr. Ana Miladinovic. She immediately puts you at ease with her calm and sweet demeanor. She has a special way of making your visit personalized, comfortable. ABSOLUTELY PROFESSIONAL SERVICE. Thank you for restoring my confidence and happiness!</p>
+            <p class="testimonial-card__quote">Zaista imam samo reči hvale za ovu ordinaciju. Došla sam u 8. mesecu trudnoće, malo uplašena, ali su me odmah smirili i učinili da se osećam sigurno. Popravili su mi dva zuba i sve je prošlo potpuno glatko i bez bolova. Doktor i osoblje su veoma pažljivi, prijatni i profesionalni, sve dobro objašnjavaju i imaju zaista lep pristup. Iskreno, preporučila bih ih svima.</p>
             <div class="testimonial-card__author">
               <div class="testimonial-card__avatar" aria-hidden="true">M</div>
-              <div><div class="testimonial-card__name">Marta Zatowska</div><div class="testimonial-card__stars" aria-label="5 zvezdica">★★★★★</div></div>
+              <div><div class="testimonial-card__name">Milica</div><div class="testimonial-card__stars" aria-label="5 zvezdica">★★★★★</div></div>
             </div>
           </div>
 
           <div class="testimonial-card reveal reveal--delay-2">
-            <p class="testimonial-card__quote">A huge belated thank you to the wonderful Dr Ana Miladinovic. I'm so pleased with my teeth now. Ana has such a great eye for detail and I love that she is a perfectionist. She's brilliant, super professional — really knows her stuff, AND listens to what YOU want. Don't hesitate!</p>
+            <p class="testimonial-card__quote">Dr Tatjana mi je radila kompozitne fasete, malo je reći da sam zadovoljna. Ana i Tatjana su zaista divne, spremne su na svaki kompromis i zaista se vidi da im je stalo do zadovoljstva njihovih pacijenata, pažljivo slušaju i ispunjavaju svaku želju svog pacijenta! Sve najbolje!</p>
+            <div class="testimonial-card__author">
+              <div class="testimonial-card__avatar" aria-hidden="true">N</div>
+              <div><div class="testimonial-card__name">Nikola Antić</div><div class="testimonial-card__stars" aria-label="5 zvezdica">★★★★★</div></div>
+            </div>
+          </div>
+
+          <div class="testimonial-card reveal">
+            <p class="testimonial-card__quote">Profesionalizam, posvećenost i ljudska toplina karakterišu dr Anu, sve pohvale za ordinaciju Maison Dental &amp; Aesthetic!</p>
+            <div class="testimonial-card__author">
+              <div class="testimonial-card__avatar" aria-hidden="true">B</div>
+              <div><div class="testimonial-card__name">Branka Bakić</div><div class="testimonial-card__stars" aria-label="5 zvezdica">★★★★★</div></div>
+            </div>
+          </div>
+
+          <div class="testimonial-card reveal reveal--delay-1">
+            <p class="testimonial-card__quote">Sve preporuke za dr Tatjanu! Pedantna, precizna, pažljiva. Zamenila mi je crne plombe estetskim, izlečila sve karijese i dovela mi zube do savršenstva! Hvala vam puno i sve preporuke za ordinaciju!</p>
             <div class="testimonial-card__author">
               <div class="testimonial-card__avatar" aria-hidden="true">D</div>
-              <div><div class="testimonial-card__name">D Hajaj</div><div class="testimonial-card__stars" aria-label="5 zvezdica">★★★★★</div></div>
+              <div><div class="testimonial-card__name">Danijel</div><div class="testimonial-card__stars" aria-label="5 zvezdica">★★★★★</div></div>
+            </div>
+          </div>
+
+          <div class="testimonial-card reveal reveal--delay-2">
+            <p class="testimonial-card__quote">Divno iskustvo i profesionalizam na prvom mestu. Ako želite kvalitet, rezultate i zdrave zube, došli ste na pravo mesto. Ova ordinacija je zaslužna za moj osmeh. Dr Ana je izuzetno profesionalna, pažljiva i nežna, a njen pristup pokazuje veliku ljubav prema svom poslu. Ordinacija izgleda moderno, uredno i prijatno, sa divnom atmosferom i nasmejanim ljudima u njoj. Sve preporuke od srca!</p>
+            <div class="testimonial-card__author">
+              <div class="testimonial-card__avatar" aria-hidden="true">M</div>
+              <div><div class="testimonial-card__name">Marija Bogdanović</div><div class="testimonial-card__stars" aria-label="5 zvezdica">★★★★★</div></div>
+            </div>
+          </div>
+
+          <div class="testimonial-card reveal">
+            <p class="testimonial-card__quote">Svaka pohvala za tretman pacijenata, profesionalizam i stručnost. Konačno, stomatolog koji naglašava prevenciju problema i koji se na pravi način brine o svojim pacijentima.</p>
+            <div class="testimonial-card__author">
+              <div class="testimonial-card__avatar" aria-hidden="true">B</div>
+              <div><div class="testimonial-card__name">Bojan Bjelić</div><div class="testimonial-card__stars" aria-label="5 zvezdica">★★★★★</div></div>
+            </div>
+          </div>
+
+          <div class="testimonial-card reveal reveal--delay-1">
+            <p class="testimonial-card__quote">Pregled u Mejson Dental je pravo zadovoljstvo. Veoma lep i prijatan ambijent. Dr Ana je divna, maksimalno posvećena pacijentu, sve detaljno objašnjava. Stručnjak u svojoj oblasti. Malo je reći da sam oduševljena. Sve preporuke za Mejson Dental i dr Anu.</p>
+            <div class="testimonial-card__author">
+              <div class="testimonial-card__avatar" aria-hidden="true">D</div>
+              <div><div class="testimonial-card__name">Dubravka Ljubić</div><div class="testimonial-card__stars" aria-label="5 zvezdica">★★★★★</div></div>
+            </div>
+          </div>
+
+          <div class="testimonial-card reveal reveal--delay-2">
+            <p class="testimonial-card__quote">Nakon što sam se vratila u Srbiju iz Kanade, tražila sam dobrog stomatologa i ordinaciju koja može da pruži Invisalign tretman. Veoma sam srećna što mogu da kažem da sam to pronašla u Maison Dental-u. Dr Ana je izuzetno profesionalna i ja sam veoma zadovoljna svojim iskustvom. Hvala vam.</p>
+            <div class="testimonial-card__author">
+              <div class="testimonial-card__avatar" aria-hidden="true">A</div>
+              <div><div class="testimonial-card__name">Aleksandar Cabrilo</div><div class="testimonial-card__stars" aria-label="5 zvezdica">★★★★★</div></div>
             </div>
           </div>
 
         </div>
+        <div class="text-center mt-lg reveal">
+          <a href="https://www.google.com/maps/place/Maison+Dental+%26+Aesthetic/@44.789595,20.4794504,17z/data=!4m8!3m7!1s0x475a71598b832629:0xde690b2a28c733c1!8m2!3d44.7895912!4d20.4820253!9m1!1b1!16s%2Fg%2F11y8srqvd2?hl=sr&entry=ttu&g_ep=EgoyMDI2MTAxMy4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer" class="btn btn--outline">Pogledajte sve recenzije na Google</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- TIM NA RADU FOTO -->
+    <section class="section" style="background:#fff">
+      <div class="container" style="text-align:center">
+        <img src="images/tim-na-radu.webp" alt="Dr Ana Miladinović i tim na radu — MaisonDental &amp; Aesthetic" width="1400" loading="lazy" decoding="async" style="width:100%;height:auto;display:block;border-radius:12px">
       </div>
     </section>
 
