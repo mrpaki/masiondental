@@ -276,6 +276,15 @@
       'inv.faq.q5':             'Šta je retainer i da li je obavezan posle tretmana?',
       'inv.faq.a5':             'Nakon završetka tretmana obavezno se nosi retainer — fiksni (žičica sa unutrašnje strane zuba) ili mobilni (providna folija samo za noć). Retainer čuva postignut rezultat dugoročno.',
 
+      /* PRE / POSLE */
+      'ba.section.eyebrow':     'Pre i posle',
+      'ba.section.h2':          'Rezultati terapije',
+      'ba.caption':             'Ispravljanje Invisalign folijama. Terapija bez brušenja zdravih zuba.',
+      'ba.note':                'Rezultat zavisi od početnog stanja i razlikuje se od pacijenta do pacijenta. Fotografije objavljene uz saglasnost pacijenta.',
+      'ba.hint':                'Klik za prikaz',
+      'ba.tag.pre':             'Pre',
+      'ba.tag.posle':           'Posle',
+
       /* ANTI-AGEING */
       'anti.hero.eyebrow':      'Estetska medicina',
       'anti.hero.h1':           'Anti-ageing & regenerativna estetska medicina',
@@ -778,6 +787,15 @@
       'inv.faq.a4':             'The cost depends on the complexity of the case and the number of aligners needed. At a free consultation Dr Ana will assess your case and provide an accurate quote. See our price list for indicative prices.',
       'inv.faq.q5':             'What is a retainer and is it mandatory after treatment?',
       'inv.faq.a5':             'After treatment it is mandatory to wear a retainer — fixed (wire on the inside of the teeth) or removable (clear aligner worn only at night). The retainer maintains the achieved result long-term.',
+
+      /* PRE / POSLE */
+      'ba.section.eyebrow':     'Before & After',
+      'ba.section.h2':          'Treatment results',
+      'ba.caption':             'Correction with Invisalign aligners. Treatment without grinding healthy teeth.',
+      'ba.note':                'Results depend on the starting condition and vary from patient to patient. Photographs published with the patient\'s consent.',
+      'ba.hint':                'Tap to switch',
+      'ba.tag.pre':             'Before',
+      'ba.tag.posle':           'After',
 
       /* ANTI-AGEING */
       'anti.hero.eyebrow':      'Aesthetic Medicine',

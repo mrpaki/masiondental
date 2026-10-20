@@ -74,6 +74,15 @@
         ],
         "createdAt": "2026-10-15T10:01:19.275Z",
         "reason": "Agent: advisory only; Serbian dental/medical copy legitimately uses em-dashes in product descriptions"
+      },
+      {
+        "rule": "buried-raster",
+        "value": "*",
+        "files": [
+          "/mnt/c/Wordpress/Sajtovi/maisondental/cd maisondental/galerija.html"
+        ],
+        "createdAt": "2026-10-20T17:35:08.212Z",
+        "reason": "intentional crossfade animation: ba__img opacity:0 is off-state, transitions to 1 via is-on class"
       }
     ]
   }

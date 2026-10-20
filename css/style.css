@@ -1225,3 +1225,117 @@ body.menu-open { overflow: hidden; }
   .brand__mark,
   .ml-g { transition: none !important; }
 }
+
+/* ===================== BA GRID ===================== */
+.ba-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+@media (max-width: 640px) {
+  .ba-grid { grid-template-columns: 1fr; }
+}
+
+/* ===================== PRE / POSLE ===================== */
+.ba { margin: 0; }
+
+.ba__stage {
+  position: relative;
+  display: block;
+  width: 100%;
+  aspect-ratio: 1400 / 824;
+  padding: 0;
+  border: 1px solid var(--c-border);
+  border-radius: 14px;
+  overflow: hidden;
+  background: var(--c-bg-alt);
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+.ba__stage:focus-visible {
+  outline: 2px solid var(--c-accent);
+  outline-offset: 3px;
+}
+
+.ba__img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 900ms cubic-bezier(.4, 0, .2, 1);
+}
+.ba__img.is-on { opacity: 1; }
+
+.ba__tag {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  display: inline-flex;
+  align-items: center;
+  padding: .38rem .85rem;
+  border-radius: 40px;
+  background: rgba(26, 25, 23, .78);
+  backdrop-filter: blur(6px);
+  color: var(--c-bg);
+  font-size: .69rem;
+  font-weight: 500;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  pointer-events: none;
+}
+
+.ba__bar {
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+  height: 2px;
+  background: rgba(250, 250, 248, .22);
+  pointer-events: none;
+}
+.ba__bar i {
+  display: block;
+  height: 100%;
+  width: 0;
+  background: var(--c-accent);
+}
+.ba__bar i.run { animation: baFill var(--ba-dur, 5000ms) linear forwards; }
+@keyframes baFill { from { width: 0 } to { width: 100% } }
+
+.ba__hint {
+  position: absolute;
+  right: 12px;
+  bottom: 14px;
+  padding: .3rem .7rem;
+  border-radius: 40px;
+  background: rgba(26, 25, 23, .6);
+  color: rgba(250, 250, 248, .9);
+  font-size: .69rem;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  opacity: 0;
+  transition: opacity .3s ease;
+  pointer-events: none;
+}
+.ba__stage:hover .ba__hint,
+.ba__stage:focus-visible .ba__hint { opacity: 1; }
+
+.ba__caption {
+  margin: .9rem 0 0;
+  font-size: .82rem;
+  line-height: 1.7;
+  color: var(--c-ink-2);
+}
+.ba__caption p { margin: 0; color: var(--c-ink); font-weight: 500; }
+.ba__note {
+  display: block;
+  margin-top: .45rem;
+  font-size: .72rem;
+  color: var(--c-ink-3);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ba__img { transition: none; }
+  .ba__bar { display: none; }
+}

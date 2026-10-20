@@ -220,3 +220,89 @@
 })();
 
 })();
+
+/* ===================== PRE / POSLE ===================== */
+(function () {
+  'use strict';
+  var reduce = window.matchMedia &&
+               window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  function getLang() { return document.documentElement.lang || 'sr'; }
+
+  function baLabel(img) {
+    return getLang() === 'en' && img.dataset.baLabelEn
+      ? img.dataset.baLabelEn
+      : (img.dataset.baLabel || '');
+  }
+
+  document.querySelectorAll('[data-ba]').forEach(function (stage) {
+    var imgs = stage.querySelectorAll('.ba__img');
+    var tag  = stage.querySelector('[data-ba-tag]');
+    var bar  = stage.querySelector('.ba__bar i');
+    var dur  = parseInt(stage.dataset.baInterval, 10) || 5000;
+    if (imgs.length < 2) return;
+
+    var i = 0, timer = null, manual = reduce, visible = false;
+    stage.style.setProperty('--ba-dur', dur + 'ms');
+
+    function show(n) {
+      i = n % imgs.length;
+      imgs.forEach(function (im, k) { im.classList.toggle('is-on', k === i); });
+      if (tag) tag.textContent = baLabel(imgs[i]);
+    }
+    function restartBar() {
+      if (!bar || reduce) return;
+      bar.classList.remove('run');
+      void bar.offsetWidth;
+      bar.classList.add('run');
+    }
+    function play() {
+      if (manual || timer || !visible) return;
+      restartBar();
+      timer = setInterval(function () { show(i + 1); restartBar(); }, dur);
+    }
+    function pause() {
+      clearInterval(timer);
+      timer = null;
+      if (bar) bar.classList.remove('run');
+    }
+
+    stage.addEventListener('click', function () {
+      manual = true;
+      pause();
+      show(i + 1);
+    });
+
+    if ('IntersectionObserver' in window) {
+      new IntersectionObserver(function (es) {
+        visible = es[0].isIntersecting;
+        if (visible) { play(); } else { pause(); }
+      }, { threshold: 0.35 }).observe(stage);
+    } else {
+      visible = true;
+      play();
+    }
+
+    document.addEventListener('visibilitychange', function () {
+      if (document.hidden) { pause(); } else { play(); }
+    });
+
+    show(0);
+  });
+
+  /* re-render ba tag pri promeni jezika */
+  if (window.mdI18n && window.mdI18n.apply) {
+    var origApply = window.mdI18n.apply;
+    window.mdI18n.apply = function (lang) {
+      origApply(lang);
+      document.querySelectorAll('[data-ba]').forEach(function (stage) {
+        var imgs = stage.querySelectorAll('.ba__img');
+        var tag  = stage.querySelector('[data-ba-tag]');
+        if (!tag || !imgs.length) return;
+        var cur = 0;
+        imgs.forEach(function (im, k) { if (im.classList.contains('is-on')) cur = k; });
+        tag.textContent = baLabel(imgs[cur]);
+      });
+    };
+  }
+})();
