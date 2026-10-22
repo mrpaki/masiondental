@@ -242,7 +242,7 @@
     var dur  = parseInt(stage.dataset.baInterval, 10) || 5000;
     if (imgs.length < 2) return;
 
-    var i = 0, timer = null, manual = reduce, visible = false;
+    var i = 0, timer = null, manual = true, visible = false;
     stage.style.setProperty('--ba-dur', dur + 'ms');
 
     function show(n) {
