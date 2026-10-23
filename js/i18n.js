@@ -37,6 +37,10 @@
       'bc.services':            'Usluge',
       'bc.stom':                'Stomatologija',
       'bc.anti':                'Anti-ageing medicina',
+      'bc.oNama':               'O nama',
+      'bc.galerija':            'Galerija osmeha',
+      'bc.cenovnik':            'Cenovnik',
+      'bc.kontakt':             'Kontakt',
 
       /* CTA SECTION */
       'cta.eyebrow':            'Zakažite pregled',
@@ -572,6 +576,10 @@
       'bc.services':            'Services',
       'bc.stom':                'Dentistry',
       'bc.anti':                'Anti-ageing Medicine',
+      'bc.oNama':               'About',
+      'bc.galerija':            'Smile Gallery',
+      'bc.cenovnik':            'Price List',
+      'bc.kontakt':             'Contact',
 
       /* CTA SECTION */
       'cta.eyebrow':            'Book an appointment',
