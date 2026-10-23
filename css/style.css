@@ -1339,3 +1339,205 @@ body.menu-open { overflow: hidden; }
   .ba__img { transition: none; }
   .ba__bar { display: none; }
 }
+/* ============================================================
+   MaisonDental — stilovi za nove sekcije naslovne (#misija, #tim)
+   Ide na KRAJ css/style.css. Ne menja nijedno postojece pravilo.
+   Koristi samo promenljive koje sajt vec ima.
+   ============================================================ */
+
+/* ---------- MISIJA ---------- */
+
+.misija {
+  display: grid;
+  grid-template-columns: 1fr 1.15fr;
+  gap: 3.5rem;
+  align-items: start;
+}
+
+.misija__heading {
+  margin: .6rem 0 0;
+  font-size: clamp(1.9rem, 3.4vw, 2.9rem);
+  line-height: 1.12;
+  letter-spacing: -.01em;
+}
+
+.misija__body { padding-top: .5rem; }
+
+.misija__text {
+  margin: 0 0 1.1rem;
+  font-size: 1rem;
+  line-height: 1.85;
+  color: var(--c-ink-2);
+}
+.misija__text:last-child { margin-bottom: 0; }
+
+/* druga recenica je ono sto je doktorka trazila da se istakne */
+.misija__text + .misija__text {
+  padding-left: 1.4rem;
+  border-left: 2px solid var(--c-accent);
+  color: var(--c-ink);
+}
+
+/* ---------- TRI PRINCIPA ---------- */
+
+.principi {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin: 4rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.principi__item {
+  padding: 1.9rem 1.7rem;
+  background: var(--c-bg);
+  border: 1px solid var(--c-border);
+  border-radius: 14px;
+}
+
+.principi__num {
+  font-family: var(--f-display, inherit);
+  font-size: .78rem;
+  font-weight: 500;
+  letter-spacing: .22em;
+  color: var(--c-accent-dark);
+}
+
+.principi__title {
+  margin: .8rem 0 .55rem;
+  font-size: 1.02rem;
+  font-weight: 500;
+  line-height: 1.35;
+  color: var(--c-ink);
+}
+
+.principi__text {
+  margin: 0;
+  font-size: .86rem;
+  line-height: 1.7;
+  color: var(--c-ink-2);
+}
+
+/* ---------- TIM ---------- */
+
+.tim__head {
+  max-width: 44rem;
+  margin: 0 auto 3.5rem;
+  text-align: center;
+}
+
+.tim__heading {
+  margin: .6rem 0 1rem;
+  font-size: clamp(1.9rem, 3.4vw, 2.9rem);
+  line-height: 1.12;
+  letter-spacing: -.01em;
+}
+
+.tim__lead {
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.8;
+  color: var(--c-ink-2);
+}
+
+/* dve kolone jednake sirine — ravnopravnost se vidi u rasporedu */
+.tim__grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2.5rem;
+}
+
+.tim-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--c-bg);
+  border: 1px solid var(--c-border);
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.tim-card__img-wrap {
+  position: relative;
+  aspect-ratio: 4 / 5;
+  background: var(--c-bg-alt);
+  overflow: hidden;
+}
+.tim-card__img-wrap img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.tim-card__body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 1.9rem 1.8rem 2rem;
+}
+
+.tim-card__name {
+  margin: 0;
+  font-family: var(--f-display, inherit);
+  font-size: 1.45rem;
+  font-weight: 400;
+  line-height: 1.25;
+  color: var(--c-ink);
+}
+
+.tim-card__role {
+  margin: .4rem 0 1.1rem;
+  font-size: .7rem;
+  font-weight: 500;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  color: var(--c-accent-dark);
+}
+
+.tim-card__bio {
+  margin: 0 0 1.4rem;
+  font-size: .88rem;
+  line-height: 1.8;
+  color: var(--c-ink-2);
+}
+
+/* tagovi se poravnavaju po dnu kartice, pa kartice ostaju ujednacene
+   i kad su biografije razlicite duzine */
+.tim-card__tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .45rem;
+  margin: auto 0 0;
+  padding: 0;
+  list-style: none;
+}
+.tim-card__tags li {
+  padding: .34rem .78rem;
+  border: 1px solid var(--c-border);
+  border-radius: 40px;
+  background: var(--c-bg-alt);
+  font-size: .7rem;
+  letter-spacing: .06em;
+  color: var(--c-ink-2);
+}
+
+.tim__foot {
+  margin-top: 3rem;
+  text-align: center;
+}
+
+/* ---------- uzi ekrani ---------- */
+
+@media (max-width: 980px) {
+  .misija { grid-template-columns: 1fr; gap: 1.8rem; }
+  .principi { grid-template-columns: 1fr; gap: 1rem; margin-top: 2.8rem; }
+  .tim__grid { grid-template-columns: 1fr; gap: 1.8rem; }
+  .tim__head { margin-bottom: 2.5rem; }
+}
+
+@media (max-width: 560px) {
+  .misija__text + .misija__text { padding-left: 1.1rem; }
+  .tim-card__body { padding: 1.6rem 1.4rem 1.7rem; }
+  .principi__item { padding: 1.6rem 1.4rem; }
+}
