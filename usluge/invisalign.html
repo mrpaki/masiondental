@@ -19,12 +19,13 @@
     .lang-toggle-btn span:hover { color:var(--c-ink); }
     .lang-sep { color:var(--c-border); }
   .inv-hero-grid { display:grid; grid-template-columns:1fr 1fr; align-items:center; gap:3rem; }
-  .inv-hero-badge { display:flex; justify-content:center; align-items:center; }
+  .inv-hero-badge { display:flex; flex-direction:column; justify-content:center; align-items:center; gap:1.75rem; }
   .inv-hero-badge img { max-width:280px; width:100%; opacity:.85; transition:opacity .2s; }
   .inv-hero-badge a:hover img { opacity:1; }
+  .inv-reg { font-size:.42em; vertical-align:super; font-weight:300; line-height:1; }
   @media (max-width:767px) {
     .inv-hero-grid { grid-template-columns:1fr; }
-    .inv-hero-badge { margin-top:2rem; }
+    .inv-hero-badge { margin-top:2rem; gap:1.25rem; }
     .inv-hero-badge img { max-width:200px; }
   }
   </style>
@@ -120,12 +121,15 @@
             <span>Invisalign</span>
           </nav>
           <p class="eyebrow" data-i18n="inv.hero.eyebrow">Ortodoncija</p>
-          <h1 data-i18n="inv.hero.h1">Invisalign</h1>
+          <h1><span data-i18n="inv.hero.h1">Invisalign</span><sup class="inv-reg">®</sup></h1>
           <p data-i18n="inv.hero.p">Jedini originalni američki sistem providnih folija za ispravljanje zuba. Diskretan, komforan, predvidiv.</p>
         </div>
         <div class="inv-hero-badge">
           <a href="https://www.invisalign.com/" target="_blank" rel="noopener noreferrer" aria-label="Invisalign Provider — zvanični sajt">
             <img src="../images/sertifikati/invisalign-provider-blue.png" alt="Invisalign Provider" width="260" loading="eager" decoding="async">
+          </a>
+          <a href="https://www.itero.com/" target="_blank" rel="noopener noreferrer" aria-label="iTero Digital Practice">
+            <img src="../images/sertifikati/itero-digital-practice-grey.png" alt="iTero Digital Practice" width="220" loading="eager" decoding="async">
           </a>
         </div>
       </div>
