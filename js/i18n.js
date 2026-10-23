@@ -35,6 +35,8 @@
       /* BREADCRUMBS */
       'bc.home':                'Početna',
       'bc.services':            'Usluge',
+      'bc.stom':                'Stomatologija',
+      'bc.anti':                'Anti-ageing medicina',
 
       /* CTA SECTION */
       'cta.eyebrow':            'Zakažite pregled',
@@ -568,6 +570,8 @@
       /* BREADCRUMBS */
       'bc.home':                'Home',
       'bc.services':            'Services',
+      'bc.stom':                'Dentistry',
+      'bc.anti':                'Anti-ageing Medicine',
 
       /* CTA SECTION */
       'cta.eyebrow':            'Book an appointment',
