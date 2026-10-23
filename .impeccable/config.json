@@ -83,6 +83,15 @@
         ],
         "createdAt": "2026-10-20T17:35:08.212Z",
         "reason": "intentional crossfade animation: ba__img opacity:0 is off-state, transitions to 1 via is-on class"
+      },
+      {
+        "rule": "buried-raster",
+        "value": "*",
+        "files": [
+          "galerija.html"
+        ],
+        "createdAt": "2026-10-22T16:14:31.539Z",
+        "reason": "Intentional: ba__img opacity:0 is the hidden slide in the before/after toggle; becomes visible on click via is-on class — this is the component's core mechanic"
       }
     ]
   }
