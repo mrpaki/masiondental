@@ -92,6 +92,15 @@
         ],
         "createdAt": "2026-10-22T16:14:31.539Z",
         "reason": "Intentional: ba__img opacity:0 is the hidden slide in the before/after toggle; becomes visible on click via is-on class — this is the component's core mechanic"
+      },
+      {
+        "rule": "wide-tracking",
+        "value": "*",
+        "files": [
+          "/mnt/c/wordpress/sajtovi/maisondental/cd-maisondental/index.html"
+        ],
+        "createdAt": "2026-10-23T19:19:56.648Z",
+        "reason": "pre-existing SR/EN lang-toggle button label — short UI control, not body text"
       }
     ]
   }
