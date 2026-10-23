@@ -64,7 +64,7 @@ button { font-family: var(--font-body); cursor: pointer; border: none; backgroun
   letter-spacing: -0.01em;
 }
 
-.display em { font-style: italic; font-weight: 300; }
+.display em { font-style: italic; font-weight: 300; color: var(--c-accent); }
 
 h1, h2, h3, h4 {
   font-family: var(--font-display);
@@ -586,9 +586,13 @@ p { color: var(--c-ink-2); }
 }
 @media (min-width: 768px) { .stats__grid { grid-template-columns: repeat(4, 1fr); } }
 
+.section--stats {
+  padding: clamp(2rem, 4vw, 4rem) 0;
+}
+
 .stat {
   text-align: center;
-  padding: 2rem 1rem;
+  padding: 1.25rem 1rem;
   border-right: 1px solid rgba(255,255,255,0.08);
 }
 .stat:last-child { border-right: none; }
@@ -766,7 +770,6 @@ p { color: var(--c-ink-2); }
   display: flex; align-items: center; justify-content: center;
   color: var(--c-ink-3);
   transition: all 0.2s;
-  font-size: 0.9rem;
 }
 .footer__social-link:hover {
   border-color: var(--c-accent);
