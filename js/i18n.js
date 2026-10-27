@@ -312,7 +312,7 @@
       'inv.faq.q3':             'Mogu li da jedem sa folijama?',
       'inv.faq.a3':             'Folije se vade pri svakom obroku. To je jedna od prednosti Invisalign-a — možete jesti šta god želite, bez ograničenja kao kod metalnih aparatića. Potrebno ih je nositi 20–22 sata dnevno.',
       'inv.faq.q4':             'Kolika je cena Invisalign tretmana?',
-      'inv.faq.a4':             'Cena zavisi od kompleksnosti slučaja i broja potrebnih folija. Na besplatnoj konsultaciji Dr Ana će proceniti vaš slučaj i dati preciznu ponudu. Pogledajte naš cenovnik za orjentacione cene.',
+      'inv.faq.a4':             'Cena zavisi od kompleksnosti slučaja i broja potrebnih folija. Na konsultaciji Dr Ana će proceniti vaš slučaj i dati preciznu ponudu. Pogledajte naš cenovnik za orjentacione cene.',
       'inv.faq.q5':             'Šta je retainer i da li je obavezan posle tretmana?',
       'inv.faq.a5':             'Nakon završetka tretmana obavezno se nosi retainer — fiksni (žičica sa unutrašnje strane zuba) ili mobilni (providna folija samo za noć). Retainer čuva postignut rezultat dugoročno.',
 
@@ -876,7 +876,7 @@
       'inv.faq.q3':             'Can I eat with the aligners in?',
       'inv.faq.a3':             'Aligners are removed for every meal. This is one of the advantages of Invisalign — you can eat whatever you want, without the restrictions of metal braces. They need to be worn for 20–22 hours per day.',
       'inv.faq.q4':             'How much does Invisalign treatment cost?',
-      'inv.faq.a4':             'The cost depends on the complexity of the case and the number of aligners needed. At a free consultation Dr Ana will assess your case and provide an accurate quote. See our price list for indicative prices.',
+      'inv.faq.a4':             'The cost depends on the complexity of the case and the number of aligners needed. At a consultation Dr Ana will assess your case and provide an accurate quote. See our price list for indicative prices.',
       'inv.faq.q5':             'What is a retainer and is it mandatory after treatment?',
       'inv.faq.a5':             'After treatment it is mandatory to wear a retainer — fixed (wire on the inside of the teeth) or removable (clear aligner worn only at night). The retainer maintains the achieved result long-term.',
 
