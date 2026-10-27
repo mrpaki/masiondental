@@ -314,7 +314,7 @@
       'inv.faq.q4':             'Kolika je cena Invisalign tretmana?',
       'inv.faq.a4':             'Cena zavisi od kompleksnosti slučaja i broja potrebnih folija. Na konsultaciji Dr Ana će proceniti vaš slučaj i dati preciznu ponudu. Pogledajte naš cenovnik za orjentacione cene.',
       'inv.faq.q5':             'Šta je retainer i da li je obavezan posle tretmana?',
-      'inv.faq.a5':             'Nakon završetka tretmana obavezno se nosi retainer — fiksni (žičica sa unutrašnje strane zuba) ili mobilni (providna folija samo za noć). Retainer čuva postignut rezultat dugoročno.',
+      'inv.faq.a5':             'Nakon završetka terapije se nosi retenciona folija noću, uz mogućnost postavljanja fiksnog ritejnera (žičica sa unutrašnje strane zuba) radi očuvanja postignutih rezultata dugoročno.',
 
       /* PRE / POSLE */
       'ba.section.eyebrow':     'Pre i posle',
@@ -878,7 +878,7 @@
       'inv.faq.q4':             'How much does Invisalign treatment cost?',
       'inv.faq.a4':             'The cost depends on the complexity of the case and the number of aligners needed. At a consultation Dr Ana will assess your case and provide an accurate quote. See our price list for indicative prices.',
       'inv.faq.q5':             'What is a retainer and is it mandatory after treatment?',
-      'inv.faq.a5':             'After treatment it is mandatory to wear a retainer — fixed (wire on the inside of the teeth) or removable (clear aligner worn only at night). The retainer maintains the achieved result long-term.',
+      'inv.faq.a5':             'After completing treatment a retainer aligner is worn at night, with the option of placing a fixed retainer (wire on the inside of the teeth) to maintain the achieved results long-term.',
 
       /* PRE / POSLE */
       'ba.section.eyebrow':     'Before & After',
