@@ -146,7 +146,7 @@
       /* O NAMA */
       'oNama.hero.eyebrow':     'Dr Ana Miladinović',
       'oNama.hero.h1':          'O nama',
-      'oNama.hero.p':           'Osamnaest godina posvećenosti minimalno invazivnoj stomatologiji i estetskoj medicini.',
+      'oNama.hero.p':           'Osamnaest godina posvećenosti savremenoj estetskoj i restaurativnoj stomatologiji i minimalno invazivnim protokolima.',
       'oNama.bio.eyebrow':      'Biografija',
       'oNama.bio.h2':           'Dr Ana Miladinović',
       'oNama.bio.p1':           'Dr Ana Miladinović je diplomirala na Stomatološkom Fakultetu Univerziteta u Beogradu 2008 godine. Nakon završenog staža i položenog stručnog ispita odlazi u London, Veliku Britaniju gde nostrifikuje diplomu i nastavlja rad u privatnoj praksi.',
@@ -711,7 +711,7 @@
       /* O NAMA */
       'oNama.hero.eyebrow':     'Dr Ana Miladinović',
       'oNama.hero.h1':          'About Us',
-      'oNama.hero.p':           'Eighteen years of dedication to minimally invasive dentistry and aesthetic medicine.',
+      'oNama.hero.p':           'Eighteen years of dedication to modern aesthetic and restorative dentistry and minimally invasive protocols.',
       'oNama.bio.eyebrow':      'Biography',
       'oNama.bio.h2':           'Dr Ana Miladinović',
       'oNama.bio.p1':           'Dr Ana Miladinović graduated from the Faculty of Dentistry, University of Belgrade in 2008. After completing her internship and passing her professional exam she moved to London, United Kingdom, where she had her diploma recognised and continued working in private practice.',
