@@ -378,7 +378,7 @@
       'c.th.price': 'Cena',
       'c.free': 'besplatan*',
       'c.eur': '* u dinarskoj protivvrednosti na dan plaćanja po srednjem kursu NBS',
-      'c.note': '<strong>Napomena:</strong> Prikazane cene su informativne. Tačna cena se određuje nakon pregleda i konsultacije u zavisnosti od kompleksnosti slučaja. Cene Invisalign paketa su u evrima i plaćaju se u dinarskoj protivvrednosti po <strong>srednjem kursu NBS na dan plaćanja</strong>. Za sve informacije pozovite <a href="tel:+381637178337" style="color:var(--c-accent-dark);font-weight:500">+381 63 71 78 337</a> ili pišite na <a href="mailto:info@maisondental.rs" style="color:var(--c-accent-dark);font-weight:500">info@maisondental.rs</a>.',
+      'c.note': '<strong>Napomena:</strong> Prikazane cene su informativne. Tačna cena se određuje nakon pregleda i konsultacije u zavisnosti od kompleksnosti slučaja. Cene Invisalign paketa su u evrima i plaćaju se u dinarskoj protivvrednosti po <strong>srednjem kursu NBS na dan plaćanja</strong>. Za sve informacije pozovite <a href="tel:+381606928337" style="color:var(--c-accent-dark);font-weight:500">+381 60 6928 337</a> ili pišite na <a href="mailto:info@maisondental.rs" style="color:var(--c-accent-dark);font-weight:500">info@maisondental.rs</a>.',
       'c.n01': 'Inicijalni pregled (odrasli) — 45 min.',
       'c.n02': 'Redovni pregled (odrasli) — 30 min.',
       'c.n03': 'Inicijalni pregled (deca) — 30 min.',
@@ -471,7 +471,7 @@
       'pp.h1':                  'Politika privatnosti',
       'pp.hero.p':              'Kako prikupljamo, koristimo i štitimo vaše lične podatke.',
       'pp.updated':             'Poslednje ažuriranje: 15. oktobar 2026.',
-      'pp.box':                 '<strong>Rukovalac podacima:</strong> Ana Miladinović PR Opšta ordinacija dentalne medicine MAISON DENTAL&amp;AESTHETIC Beograd<br>Matični broj: 67784774 · PIB: 114698326<br>Adresa: Tikveška 22, 11000 Beograd (Voždovac)<br>Email: <a href="mailto:info@maisondental.rs">info@maisondental.rs</a> · Tel: <a href="tel:+381637178337">+381 63 71 78 337</a>',
+      'pp.box':                 '<strong>Rukovalac podacima:</strong> Ana Miladinović PR Opšta ordinacija dentalne medicine MAISON DENTAL&amp;AESTHETIC Beograd<br>Matični broj: 67784774 · PIB: 114698326<br>Adresa: Tikveška 22, 11000 Beograd (Voždovac)<br>Email: <a href="mailto:info@maisondental.rs">info@maisondental.rs</a> · Tel: <a href="tel:+381606928337">+381 60 6928 337</a>',
       'pp.h2.1':                '1. Uvod',
       'pp.h2.2':                '2. Koji podaci se prikupljaju',
       'pp.h2.3':                '3. Svrha i pravni osnov obrade',
@@ -517,7 +517,7 @@
       'pp.s9.p1':               'Ovu politiku možemo ažurirati u skladu sa promenama u poslovanju ili zakonodavstvu. Datum poslednje izmene naznačen je na vrhu dokumenta. Preporučujemo povremenu proveru ove stranice.',
       'pp.s10.p1':              'Za sva pitanja u vezi sa zaštitom vaših podataka obratite nam se:',
       'pp.s10.li1':             'Email: <a href="mailto:info@maisondental.rs">info@maisondental.rs</a>',
-      'pp.s10.li2':             'Telefon: <a href="tel:+381637178337">+381 63 71 78 337</a>',
+      'pp.s10.li2':             'Telefon: <a href="tel:+381606928337">+381 60 6928 337</a>',
       'pp.s10.li3':             'Adresa: Tikveška 22, 11000 Beograd',
 
       /* USLOVI KORIŠĆENJA */
@@ -559,7 +559,7 @@
       'uk.s10.p1':              'Zadržavamo pravo izmene ovih uslova u bilo kom trenutku. Izmenjeni uslovi stupaju na snagu objavljivanjem na ovoj stranici. Datum poslednje izmene naznačen je na vrhu dokumenta.',
       'uk.s11.p1':              'Za sva pitanja u vezi sa ovim uslovima možete nas kontaktirati:',
       'uk.s11.li1':             'Email: <a href="mailto:info@maisondental.rs">info@maisondental.rs</a>',
-      'uk.s11.li2':             'Telefon: <a href="tel:+381637178337">+381 63 71 78 337</a>',
+      'uk.s11.li2':             'Telefon: <a href="tel:+381606928337">+381 60 6928 337</a>',
       'uk.s11.li3':             'Adresa: Tikveška 22, 11000 Beograd',
 
       /* 404 */
@@ -946,7 +946,7 @@
       'c.th.price': 'Price',
       'c.free': 'free*',
       'c.eur': '* payable in RSD equivalent at the NBS middle exchange rate on the day of payment',
-      'c.note': '<strong>Note:</strong> Prices shown are indicative. The exact price is determined after examination depending on complexity. Invisalign prices are in euros, payable in RSD at the <strong>NBS middle exchange rate on the day of payment</strong>. Call <a href="tel:+381637178337" style="color:var(--c-accent-dark);font-weight:500">+381 63 71 78 337</a> or email <a href="mailto:info@maisondental.rs" style="color:var(--c-accent-dark);font-weight:500">info@maisondental.rs</a>.',
+      'c.note': '<strong>Note:</strong> Prices shown are indicative. The exact price is determined after examination depending on complexity. Invisalign prices are in euros, payable in RSD at the <strong>NBS middle exchange rate on the day of payment</strong>. Call <a href="tel:+381606928337" style="color:var(--c-accent-dark);font-weight:500">+381 60 6928 337</a> or email <a href="mailto:info@maisondental.rs" style="color:var(--c-accent-dark);font-weight:500">info@maisondental.rs</a>.',
       'c.n01': 'Initial consultation (adults) — 45 min.',
       'c.n02': 'Regular check-up (adults) — 30 min.',
       'c.n03': 'Initial consultation (children) — 30 min.',
@@ -1035,7 +1035,7 @@
       'pp.h1':                  'Privacy Policy',
       'pp.hero.p':              'How we collect, use and protect your personal data.',
       'pp.updated':             'Last updated: 15 October 2026.',
-      'pp.box':                 '<strong>Data Controller:</strong> Ana Miladinović PR Opšta ordinacija dentalne medicine MAISON DENTAL&amp;AESTHETIC Beograd<br>Registration Number: 67784774 · Tax ID: 114698326<br>Address: Tikveška 22, 11000 Belgrade (Voždovac), Serbia<br>Email: <a href="mailto:info@maisondental.rs">info@maisondental.rs</a> · Tel: <a href="tel:+381637178337">+381 63 71 78 337</a>',
+      'pp.box':                 '<strong>Data Controller:</strong> Ana Miladinović PR Opšta ordinacija dentalne medicine MAISON DENTAL&amp;AESTHETIC Beograd<br>Registration Number: 67784774 · Tax ID: 114698326<br>Address: Tikveška 22, 11000 Belgrade (Voždovac), Serbia<br>Email: <a href="mailto:info@maisondental.rs">info@maisondental.rs</a> · Tel: <a href="tel:+381606928337">+381 60 6928 337</a>',
       'pp.h2.1':                '1. Introduction',
       'pp.h2.2':                '2. Data Collected',
       'pp.h2.3':                '3. Purpose and Legal Basis for Processing',
@@ -1081,7 +1081,7 @@
       'pp.s9.p1':               'This policy may be updated in response to changes in our operations or in applicable law. The date of the most recent amendment is indicated at the top of this document. We recommend checking this page periodically.',
       'pp.s10.p1':              'For all enquiries regarding the protection of your personal data, please contact us:',
       'pp.s10.li1':             'Email: <a href="mailto:info@maisondental.rs">info@maisondental.rs</a>',
-      'pp.s10.li2':             'Phone: <a href="tel:+381637178337">+381 63 71 78 337</a>',
+      'pp.s10.li2':             'Phone: <a href="tel:+381606928337">+381 60 6928 337</a>',
       'pp.s10.li3':             'Address: Tikveška 22, 11000 Belgrade',
 
       /* TERMS OF USE */
@@ -1123,7 +1123,7 @@
       'uk.s10.p1':              'We reserve the right to amend these terms at any time. Amended terms take effect upon publication on this page. The date of the most recent amendment is indicated at the top of this document.',
       'uk.s11.p1':              'For all enquiries regarding these terms, please contact us:',
       'uk.s11.li1':             'Email: <a href="mailto:info@maisondental.rs">info@maisondental.rs</a>',
-      'uk.s11.li2':             'Phone: <a href="tel:+381637178337">+381 63 71 78 337</a>',
+      'uk.s11.li2':             'Phone: <a href="tel:+381606928337">+381 60 6928 337</a>',
       'uk.s11.li3':             'Address: Tikveška 22, 11000 Belgrade',
 
       /* 404 */
