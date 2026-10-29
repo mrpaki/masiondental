@@ -101,6 +101,15 @@
         ],
         "createdAt": "2026-10-23T19:19:56.648Z",
         "reason": "pre-existing SR/EN lang-toggle button label — short UI control, not body text"
+      },
+      {
+        "rule": "low-contrast",
+        "value": "*",
+        "files": [
+          "/mnt/c/wordpress/sajtovi/maisondental/cd-maisondental/index.html"
+        ],
+        "createdAt": "2026-10-29T11:18:14.507Z",
+        "reason": "user confirmed: 'paleta boja ostaje ista' — accent #C4A882 on hero h1 em is intentional brand typography, pre-existing across the site"
       }
     ]
   }
