@@ -791,7 +791,7 @@ p { color: var(--c-ink-2); }
   transform: translateY(-2px);
 }
 .cert-badge:focus-visible { outline: 2px solid var(--c-accent); outline-offset: 3px; }
-.cert-badge img { display: block; width: 150px; height: auto; }
+.cert-badge img { display: block; height: 56px; width: auto; }
 .cert-note {
   margin: 14px 0 0;
   font-size: .8125rem;
@@ -799,7 +799,7 @@ p { color: var(--c-ink-2); }
   color: var(--c-ink-3);
 }
 @media (max-width: 760px) {
-  .cert-badge img { width: 132px; }
+  .cert-badge img { height: 49px; }
 }
 @media (prefers-reduced-motion: reduce) {
   .cert-badge { transition: none; }
