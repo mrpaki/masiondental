@@ -61,8 +61,8 @@
 
       /* INDEX */
       'index.hero.eyebrow':     'MaisonDental & Aesthetic — Beograd & London',
-      'index.hero.h1':          'Vaš osmeh,',
-      'index.hero.h1em':        'naša misija',
+      'index.hero.h1':          'Minimalno invazivni protokoli',
+      'index.hero.h1em':        'za budućnost vašeg prirodnog osmeha',
       'index.hero.lead':        'Minimalno invazivna stomatologija — naš pristup i protokoli identični su londonskim. Cilj nam je dugoročno očuvanje zdravlja, funkcije i estetike vaših zuba.',
       'index.hero.badge1.num':  '18+',
       'index.hero.badge1.lbl':  'godina prakse',
@@ -626,8 +626,8 @@
 
       /* INDEX */
       'index.hero.eyebrow':     'MaisonDental & Aesthetic — Belgrade & London',
-      'index.hero.h1':          'Your smile,',
-      'index.hero.h1em':        'our mission',
+      'index.hero.h1':          'Minimally invasive protocols',
+      'index.hero.h1em':        'for the future of your natural smile',
       'index.hero.lead':        'Minimally invasive dentistry — our approach and protocols are identical to those in London. We work to preserve the health, function and appearance of your teeth for the long term.',
       'index.hero.badge1.num':  '18+',
       'index.hero.badge1.lbl':  'years in practice',
