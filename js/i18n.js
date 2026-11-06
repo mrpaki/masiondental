@@ -23,7 +23,8 @@
       'footer.rights':          '© 2026 Maison Dental & Aesthetic. Sva prava zadržana.',
 
       /* COMMON BUTTONS */
-      'btn.book':               'Zakažite konsultaciju',
+      'btn.book':               'Zakažite termin',
+      'btn.ask':                'Pošaljite upit',
       'btn.whatsapp':           'WhatsApp',
       'btn.about':              'O nama',
       'btn.team':               'Naš tim',
@@ -591,7 +592,8 @@
       'footer.rights':          '© 2026 Maison Dental & Aesthetic. All rights reserved.',
 
       /* COMMON BUTTONS */
-      'btn.book':               'Book a Consultation',
+      'btn.book':               'Book an appointment',
+      'btn.ask':                'Send an enquiry',
       'btn.whatsapp':           'WhatsApp',
       'btn.about':              'About Us',
       'btn.team':               'Our team',
