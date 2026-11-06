@@ -108,7 +108,7 @@
       /* TIM */
       'index.tim.eyebrow':      'Naš tim',
       'index.tim.h2':           'Dve doktorke, jedan standard',
-      'index.tim.lead':         'Pacijente vode dve doktorke, po istom protokolu. Ko vas primi nije pitanje sreće — dijagnostika, plan terapije i standard rada su isti.',
+      'index.tim.lead':         'Verujemo da su timski rad i definisani protokoli važni za predvidljivost terapije i konzistentne rezultate. Zajedno težimo najvišim standardima u modernoj stomatološkoj praksi.',
       'index.tim.1.name':       'Dr Ana Miladinović',
       'index.tim.1.role':       'doktor stomatologije · osnivač',
       'index.tim.1.bio':        'Diplomirala na Stomatološkom fakultetu u Beogradu 2008. Edukaciju nastavila na Kings College London i Eastman Dental Institute. Invisalign sertifikovani provajder od 2016. Postdiplomske studije minimalno invazivne stomatologije, 2018.',
@@ -676,7 +676,7 @@
       /* TIM */
       'index.tim.eyebrow':      'Our team',
       'index.tim.h2':           'Two dentists, one standard',
-      'index.tim.lead':         'Patients are treated by two dentists working to the same protocol. Who sees you is not a matter of luck — diagnostics, treatment planning and standard of care are the same.',
+      'index.tim.lead':         'We believe that teamwork and defined protocols are essential for treatment predictability and consistent results. Together we strive for the highest standards in modern dental practice.',
       'index.tim.1.name':       'Dr Ana Miladinović',
       'index.tim.1.role':       'doctor of dental medicine · founder',
       'index.tim.1.bio':        'Graduated from the Faculty of Dentistry in Belgrade in 2008. Continued her education at Kings College London and the Eastman Dental Institute. Certified Invisalign provider since 2016. Postgraduate studies in minimally invasive dentistry, 2018.',
