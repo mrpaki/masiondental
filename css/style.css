@@ -899,6 +899,8 @@ p { color: var(--c-ink-2); }
   border-bottom: 1px solid var(--c-border);
 }
 
+.faq-item__heading { margin: 0; font-size: inherit; font-weight: inherit; }
+
 .faq-item__question {
   display: flex;
   justify-content: space-between;
