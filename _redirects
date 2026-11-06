@@ -1,0 +1,19 @@
+# Netlify preusmerenja. Fajl ide u KOREN repoa, bez ekstenzije.
+#
+# VAZNO: pre objave uporediti sa STARIM sajtom. Svaki URL koji je postojao
+# na starom maisondental.rs, a nema ga u novom sajtu, mora ovde da dobije
+# 301 — inace se gubi pozicija koju je ta strana vec imala u Google-u.
+#
+# Spisak starih URL-ova: Google Search Console -> Indeksiranje -> Strane,
+# ili `site:maisondental.rs` u pretrazi.
+#
+# Format:  /stara-putanja   /nova-putanja   301
+
+# --- primeri, obrisati i zameniti stvarnim ---
+# /usluge                 /usluge/stomatologija.html   301
+# /invisalign             /usluge/invisalign.html      301
+# /o-nama/                /o-nama.html                 301
+# /kontakt/               /kontakt.html                301
+
+# Bez www (ako DNS vodi i www varijantu)
+# http://www.maisondental.rs/*   https://maisondental.rs/:splat   301!

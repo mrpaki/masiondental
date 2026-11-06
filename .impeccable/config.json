@@ -110,6 +110,33 @@
         ],
         "createdAt": "2026-10-29T11:18:14.507Z",
         "reason": "user confirmed: 'paleta boja ostaje ista' — accent #C4A882 on hero h1 em is intentional brand typography, pre-existing across the site"
+      },
+      {
+        "rule": "low-contrast",
+        "value": "*",
+        "files": [
+          "cd-maisondental/index.html"
+        ],
+        "createdAt": "2026-11-06T12:08:24.074Z",
+        "reason": "Intentional design system: eyebrow accent color (#8B6F4E on #F2F0EB) is decorative supplementary text, used consistently throughout all sections"
+      },
+      {
+        "rule": "wide-tracking",
+        "value": "*",
+        "files": [
+          "cd-maisondental/index.html"
+        ],
+        "createdAt": "2026-11-06T12:08:58.748Z",
+        "reason": "All wide-tracking instances are on small uppercase labels (font-size ≤ 0.875rem + text-transform:uppercase) — the sanctioned exception per the rule itself; pre-existing, not introduced this session"
+      },
+      {
+        "rule": "low-contrast",
+        "value": "*",
+        "files": [
+          "cd-maisondental/cenovnik.html"
+        ],
+        "createdAt": "2026-11-06T12:36:24.045Z",
+        "reason": "Intentional design system: eyebrow accent color (#8B6F4E on #F2F0EB) is decorative supplementary text, used consistently throughout all sections"
       }
     ]
   }

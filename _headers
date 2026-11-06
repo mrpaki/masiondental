@@ -1,0 +1,29 @@
+# Netlify — keširanje i sigurnosni headeri.
+# Fajl ide u KOREN repoa, bez ekstenzije. Netlify ga čita automatski.
+
+/*
+  X-Frame-Options: SAMEORIGIN
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: geolocation=(), microphone=(), camera=()
+  Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+
+# Slike, fontovi, CSS i JS imaju stabilna imena, pa mogu dugo da se keširaju.
+# PAZI: ako menjaš style.css ili main.js bez promene imena, posetiocima koji
+# su već bili na sajtu ostaje stara verzija do godinu dana. Zato pri većoj
+# izmeni dodaj verziju u ime fajla (style.v2.css) ili skrati max-age ispod.
+/images/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/css/*
+  Cache-Control: public, max-age=604800
+
+/js/*
+  Cache-Control: public, max-age=604800
+
+# HTML uvek svež, da izmene odmah budu vidljive
+/*.html
+  Cache-Control: public, max-age=0, must-revalidate
+
+/
+  Cache-Control: public, max-age=0, must-revalidate
