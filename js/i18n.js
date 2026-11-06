@@ -48,7 +48,7 @@
       'cta.index.h2':           'Spremni za promenu?',
       'cta.index.p':            'Kontaktirajte nas i zakažite konsultaciju. Odgovaramo brzo.',
       'cta.oNama.h2':           'Kontaktirajte nas danas',
-      'cta.oNama.p':            'Rado odgovaramo na sva vaša pitanja i zakažemo konsultaciju.',
+      'cta.oNama.p':            'Zakažite konsultaciju ili termin.',
       'cta.stom.h2':            'Zakažite konsultaciju danas',
       'cta.stom.p':             'Kontaktirajte nas i saznajte koja opcija je prava za vas.',
       'cta.inv.h2':             'Zakažite Invisalign konsultaciju',
